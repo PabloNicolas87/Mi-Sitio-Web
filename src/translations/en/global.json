@@ -1,0 +1,33 @@
+{
+    "header": {
+        "hello-world": "Hello World",
+        "select-language": "ENG",
+        "about-me": "About Me",
+        "my-skills": "My Skills",
+        "my-projects": "My Projects",
+        "contact": "Contact me!"
+    },
+    "aboutUs": {
+        "title": "About Me",
+        "paragraph1": "I am Pablo, Argentine, born on August 12, 1988 in the city of Buenos Aires. Living in Balneário Camboriú, in the state of Santa Catarina, since the beginning of 2022. I moved here in search of quality of life and new horizons in an incredible city for it's beaches and lifestyle.",
+        "paragraph2": "I am a Front-End Programmer, passionate about personal and professional growth and development in the IT world. Responsible, self-taught, proactive, determined and restless are the qualities that characterize me. I like to work as a team so that learning is faster and shared.",
+        "paragraph3": "I have been working as a freelance developer since 2019 and I use technologies such as ReactJS, Javascript, Bootstrap, JQuery, CSS3, HTML5; GitHub for version control and collaborative work; and Firebase. I also manage tools related to digital marketing such as Google Ads, Google Tag Manager and Google Analytics."
+    },
+    "mySkills": {
+        "title": "My Skills"
+    },
+    "myProjects": {
+        "title": "My Projects",
+        "project1": "Nubizate",
+        "project2": "Calculator",
+        "project3": "E-commerce",
+        "view": "View"
+    },
+    "footer": {
+        "rights": "© 2022 All Rights Reserved"
+    },
+    "contact": {
+        "title": "Contact Me !",
+        "download": "Download CV"
+    }
+}
