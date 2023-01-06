@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next"
+import BotonDescargar from "./BotonDescargar";
 
 const Contact = () => {
     const [t] = useTranslation("global");
@@ -40,7 +41,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contenedor d-flex justify-content-center align-items-center">
-                <a className="blue-btn" href="#" target="_blank" rel='noreferrer'>{t("contact.download")}</a>
+                <BotonDescargar></BotonDescargar>
             </div>
         </div>
     )
