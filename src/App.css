@@ -406,3 +406,7 @@ body {
     border-radius: 10px;
     background: rgb(0, 0, 0, 0.7) !important;
 }
+
+.imgSobreMi {
+    width: 100% !important;
+}
