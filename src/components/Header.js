@@ -34,9 +34,15 @@ const Header = () => {
                             {t("header.select-language")}
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end">
-                            <li><button className="dropdown-item" onClick={() => i18n.changeLanguage("en")}>EN</button></li>
-                            <li><button className="dropdown-item" onClick={() => i18n.changeLanguage("es")}>ES</button></li>
-                            <li><button className="dropdown-item" onClick={() => i18n.changeLanguage("por")}>POR</button></li>
+                            <li >
+                                <button className="dropdown-item d-flex justify-content-between" onClick={() => i18n.changeLanguage("es")}>ES<img src={'/images/arg.png'} alt="ENG" /></button>
+                            </li>
+                            <li>
+                                <button className="dropdown-item d-flex justify-content-between" onClick={() => i18n.changeLanguage("por")}>POR<img src={'/images/bra.png'} alt="POR" /></button>
+                            </li>
+                            <li>
+                                <button className="dropdown-item d-flex justify-content-between" onClick={() => i18n.changeLanguage("en")}>EN<img src={'/images/eeuu.png'} alt="ESP" /></button>
+                            </li>
                         </ul>
                     </div>     
                 </div>
