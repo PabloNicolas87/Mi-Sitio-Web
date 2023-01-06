@@ -5,7 +5,10 @@
         "about-me": "Sobre Mim",
         "my-skills": "Minhas Habilidades",
         "my-projects": "Meus Projetos",
-        "contact": "Contate-Me!"
+        "contact": "Contate-Me!",
+        "spanish": "Espanhol",
+        "portuguese": "Português",
+        "english": "Inglês"
     },
     "aboutUs": {
         "title": "Sobre Mim",

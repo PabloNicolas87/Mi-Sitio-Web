@@ -51,7 +51,9 @@ body {
         width: 100%;
         z-index: 1000;
     }
-    
+    .collapse:not(.show) {
+        display: none !important;
+    }
     
     .nav-link {
         color: #03e9f4 !important;
@@ -69,6 +71,38 @@ body {
         color: #050801 !important;
         box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
         -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); 
+    }
+    .btn-idioma {
+        color: #03e9f4 !important;
+        border: 1.5px solid #03e9f4 !important;
+        border-radius: 7px;
+        margin-left: 5px;
+        margin-right: 5px;
+        transition: all 0.5s ease-out;
+        width: -moz-fit-content;
+        width: fit-content;
+        background-color: transparent !important;
+    }
+    .btn-idioma:hover {
+        background-color: #03e9f4 !important;
+        color: #050801 !important;
+        box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    }
+    .lista-idiomas {
+        background-color: rgb(73, 89, 121) !important;
+        /*top: 65px !important;*/
+        border: 1.5px solid #03e9f4 !important;
+        box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    }
+    .lista-idiomas li button {
+        color: #03e9f4 !important;
+        transition: all 0.5s ease-out;
+    }
+    .lista-idiomas li button:hover {
+        background-color: #03e9f4 !important;
+        color: #050801 !important;
     }
 /*End Navbar*/
 
@@ -265,21 +299,24 @@ body {
     transition: 0.5s;
     background-color: transparent;
 }
-.fa-bars {
-    color: #03e9f4 !important;
-}
-
 .navbar-toggler {
-    border: 1px solid #03e9f4;
-    transition: 0.5s;
+    border: 1px solid #03e9f4 !important;
+    transition: 0.5s !important;
 }
-
 .navbar-toggler:focus,
 .navbar-toggler:hover {
     box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4 !important;
+    background-color: #03e9f4;
+}
+.navbar-toggler:hover svg,
+.navbar-toggler:focus svg {
+    color: black !important;
+}
+.navbar-toggler svg {
+    color: #03e9f4 !important;
 }
 .footer span {
-  color: white !important;
+    color: white !important;
 }
 .footer .redes a {
     width: 20px;
