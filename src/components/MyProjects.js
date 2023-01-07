@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next"
 import SwiperJS from "./Swiper";
 
+
 const MyProjects = () => {
     const [t] = useTranslation("global");
     return(
@@ -10,10 +11,10 @@ const MyProjects = () => {
                 <h2>{t("myProjects.title")}</h2>
             </div>
             <div className="container pt-4">
-                <SwiperJS />    
+                <SwiperJS />  
             </div>
             
-        </div>
+        </div>  
     )
 }
 

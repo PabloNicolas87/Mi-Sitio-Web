@@ -24,7 +24,12 @@
         "project1": "Nubizate",
         "project2": "Calculator",
         "project3": "E-commerce",
-        "view": "View"
+        "view": "View More",
+        "close": "Close",
+        "deploy": "Deploy it",
+        "descriptionProyect1": "This site was built with HTML, CSS and Javascript technologies.",
+        "descriptionProyect2": "This site was built with HTML, CSS and Javascript technologies.",
+        "descriptionProyect3": "This site was built with React Js and Firebase technologies."
     },
     "footer": {
         "rights": "© 2022 All Rights Reserved"

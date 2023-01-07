@@ -24,7 +24,12 @@
         "project1": "Nubizate",
         "project2": "Calculadora",
         "project3": "E-commerce",
-        "view": "Ver"
+        "view": "Ver Más",
+        "close": "Cerrar",
+        "deploy": "Implementar",
+        "descriptionProyect1": "Para construir este sítio, se utilizaron tecnologías de HTML, CSS y Javascript.",
+        "descriptionProyect2": "Para construir este sítio, se utilizaron tecnologías de HTML, CSS y Javascript.",
+        "descriptionProyect3": "Para construir este sítio, se utilizaron tecnologías de React JS y Firebase."
     },
     "footer": {
         "rights": "© 2022 Todos los Derechos Reservados"
