@@ -1,6 +1,3 @@
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
 import 'swiper/css';
 import { useTranslation } from "react-i18next"
 import MyProjectsNubizate from "./MyProjectsNubizate";
@@ -8,10 +5,20 @@ import MyProjectsCalculator from './MyProjectsCalculator';
 import MyProjectsEcommerce from './MyProjectsEcommerce';
 import MyProjectsTodoListApp from './MyProjectsTodoListApp';
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+// Import Swiper styles
+import 'swiper/scss';
+import 'swiper/scss/navigation';
+import 'swiper/scss/pagination';
+
+
 const SwiperJS = () => {
     const [t] = useTranslation("global");
     return (
-        <Swiper
+        <Swiper 
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
         breakpoints={{
             // when window width is >= 640px
             768: {
@@ -26,9 +33,9 @@ const SwiperJS = () => {
         spaceBetween={50}
         slidesPerView={1}
         slidesPerGroup= {1}
+        navigation
+        pagination={{ clickable: true }}
         loop = {true}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
         >
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project1")}</h3>
