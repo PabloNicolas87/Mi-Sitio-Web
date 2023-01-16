@@ -24,12 +24,14 @@
         "project1": "Nubizate",
         "project2": "Calculadora",
         "project3": "E-commerce",
+        "project4": "Lista de Afazeres",
         "view": "Veja Mais",
         "close": "Fechar",
         "deploy": "Implantar",
         "descriptionProyect1": "O site foi construído com as tecnologias de HTML, CSS e Javascript.",
         "descriptionProyect2": "O site foi construído com as tecnologias de HTML, CSS e Javascript.",
-        "descriptionProyect3": "O site foi construído com as tecnologias de React JS e Firebase."
+        "descriptionProyect3": "O site foi construído com as tecnologias de React JS e Firebase.",
+        "descriptionProyect4": "O site foi construído com a tecnologia de React JS."
     },
     "footer": {
         "rights": "© 2022 Todos os Direitos Reservados"

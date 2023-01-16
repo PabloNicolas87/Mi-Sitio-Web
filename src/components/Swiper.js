@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next"
 import MyProjectsNubizate from "./MyProjectsNubizate";
 import MyProjectsCalculator from './MyProjectsCalculator';
 import MyProjectsEcommerce from './MyProjectsEcommerce';
+import MyProjectsTodoListApp from './MyProjectsTodoListApp';
 
 const SwiperJS = () => {
     const [t] = useTranslation("global");
@@ -45,6 +46,11 @@ const SwiperJS = () => {
             <h3>{t("myProjects.project3")}</h3>
             <img src={'/images/Ecommerce.png'} alt="Ecommerce" />
             <MyProjectsEcommerce />
+        </SwiperSlide>
+        <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
+            <h3>{t("myProjects.project4")}</h3>
+            <img src={'/images/TodoListApp.png'} alt="To Do List App" />
+            <MyProjectsTodoListApp />
         </SwiperSlide>
         </Swiper>
     );
