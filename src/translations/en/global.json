@@ -12,9 +12,9 @@
     },
     "aboutUs": {
         "title": "About Me",
-        "paragraph1": "I am Pablo, Argentine, born on August 12, 1988 in the city of Buenos Aires. Living in Balneário Camboriú, in the state of Santa Catarina, since the beginning of 2022. I moved here in search of quality of life and new horizons in an incredible city for it's beaches and lifestyle.",
-        "paragraph2": "I am a Front-End Programmer, passionate about personal and professional growth and development in the IT world. Responsible, self-taught, proactive, determined and restless are the qualities that characterize me. I like to work as a team so that learning is faster and shared.",
-        "paragraph3": "I have been working as a freelance developer since 2019 and I use technologies such as ReactJS, Javascript, Bootstrap, JQuery, CSS3, HTML5; GitHub for version control and collaborative work; and Firebase. I also manage tools related to digital marketing such as Google Ads, Google Tag Manager and Google Analytics."
+        "paragraph1": "I'm Pablo, Argentine, born on August 12th, 1988 on Buenos Aires. Now, living in Balneário Camboriú, in the state of Santa Catarina, Brazil, since the beginning of 2022. I moved here in search of new objectives and looking for an improvement in the quality of life that BC offers.",
+        "paragraph2": "I'm a Front-End Dev, passionate about personal and professional growth and development in the IT world. Responsible, self-taught, proactive, determined and restless are the qualities that characterize me. I like to work as a team mate so that learning will be faster and shared.",
+        "paragraph3": "I've been working as a freelance developer since 2019 and I use technologies such as ReactJS, Javascript, Bootstrap, JQuery, CSS3, HTML5; GitHub for version control and collaborative work; and Firebase. I also manage tools related to digital marketing such as Google Ads, Google Tag Manager and Google Analytics."
     },
     "mySkills": {
         "title": "My Skills"
