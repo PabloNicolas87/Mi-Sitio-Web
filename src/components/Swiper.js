@@ -13,11 +13,16 @@ import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 
+import 'swiper/swiper-bundle.css';
+import SwiperCore, { Autoplay } from 'swiper';
+
 
 const SwiperJS = () => {
+    SwiperCore.use([Autoplay])
     const [t] = useTranslation("global");
     return (
         <Swiper 
+        autoplay={{ delay: 3000 }}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         breakpoints={{
             // when window width is >= 640px
