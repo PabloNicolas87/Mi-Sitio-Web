@@ -11,7 +11,7 @@ const Header = () => {
             <div className="container">
                 <div className="">
                     <Link to='/' className="navbar-brand m-0">
-                        <img src={'/images/logo.webp'} alt="Imágen Logo" />
+                        <img src={'/images/logo.webp'} alt="Imágen Logo" width="180" height="71"/>
                     </Link>
                     <div className="btn-group">
                         <button type="button" className="btn btn-secondary btn-idioma dropdown-toggle m-0" data-bs-toggle="dropdown" aria-expanded="false">
