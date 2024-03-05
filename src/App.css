@@ -108,7 +108,7 @@ body {
 /*End Navbar*/
 
 .img-fondo {
-    background-image: url("../public/images/fondo1.jpg");
+    background-image: url("../public/images/fondo1.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
