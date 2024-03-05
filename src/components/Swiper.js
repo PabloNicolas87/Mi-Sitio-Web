@@ -44,22 +44,22 @@ const SwiperJS = () => {
         >
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project1")}</h3>
-            <img src={'/images/nubizate.png'} alt="Nubizate" />
+            <img src={'/images/nubizate.webp'} alt="Nubizate" />
             <MyProjectsNubizate />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project2")}</h3>
-            <img src={'/images/calculadora.png'} alt="Calculadora" />
+            <img src={'/images/calculadora.webp'} alt="Calculadora" />
             <MyProjectsCalculator />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project3")}</h3>
-            <img src={'/images/Ecommerce.png'} alt="Ecommerce" />
+            <img src={'/images/Ecommerce.webp'} alt="Ecommerce" />
             <MyProjectsEcommerce />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project4")}</h3>
-            <img src={'/images/TodoListApp.png'} alt="To Do List App" />
+            <img src={'/images/TodoListApp.webp'} alt="To Do List App" />
             <MyProjectsTodoListApp />
         </SwiperSlide>
         </Swiper>

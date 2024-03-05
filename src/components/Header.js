@@ -11,7 +11,7 @@ const Header = () => {
             <div className="container">
                 <div className="">
                     <Link to='/' className="navbar-brand m-0">
-                        <img src={'/images/logo.png'} alt="Imágen Logo" />
+                        <img src={'/images/logo.webp'} alt="Imágen Logo" />
                     </Link>
                     <div className="btn-group">
                         <button type="button" className="btn btn-secondary btn-idioma dropdown-toggle m-0" data-bs-toggle="dropdown" aria-expanded="false">
@@ -19,13 +19,13 @@ const Header = () => {
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end lista-idiomas">
                             <li>
-                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("es")}>{t("header.spanish")}<img src={'/images/arg.png'} alt={t("header.spanish")} /></button>
+                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("es")}>{t("header.spanish")}<img src={'/images/arg.webp'} alt={t("header.spanish")} /></button>
                             </li>
                             <li>
-                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("por")}>{t("header.portuguese")}<img src={'/images/bra.png'} alt={t("header.portuguese")} /></button>
+                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("por")}>{t("header.portuguese")}<img src={'/images/bra.webp'} alt={t("header.portuguese")} /></button>
                             </li>
                             <li>
-                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("en")}>{t("header.english")}<img src={'/images/eeuu.png'} alt={t("header.english")} /></button>
+                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("en")}>{t("header.english")}<img src={'/images/eeuu.webp'} alt={t("header.english")} /></button>
                             </li>
                         </ul>
                     </div>

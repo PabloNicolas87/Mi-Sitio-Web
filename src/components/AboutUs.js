@@ -5,12 +5,12 @@ const AboutUs = () => {
     return(
         <div className="img-fondo fondo">
             <div className="contenedor d-flex justify-content-center align-items-center">
-                <img src={'/images/barra.png'} alt="barra" />
+                <img src={'/images/barra.webp'} alt="barra" />
                 <h2>{t("aboutUs.title")}</h2>
             </div>
             <div className="d-flex flex-column flex-md-row">
                 <div className="col-12 col-md-5 p-5">
-                    <img className="imgSobreMi" src={'/images/imagen2.png'} alt="imagen2" />
+                    <img className="imgSobreMi" src={'/images/imagen2.webp'} alt="imagen2" />
                 </div>
                 <div className="col-12 col-md-7 d-flex flex-column justify-content-center p-5 descripcion">
                     <h3 className="text-center">Pablo Nicolás Girone</h3>

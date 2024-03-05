@@ -62,7 +62,8 @@ body {
         margin-left: 5px;
         margin-right: 5px;
         transition: all 0.5s ease-out;
-        width: fit-content;  
+        width: -moz-fit-content;  
+        width: fit-content;
     }
     .nav-link:hover,
     .nav-link.active,
@@ -149,7 +150,7 @@ body {
      
 }
 .derecha {
-    background-image: url("../public/images/imagen1.png");
+    background-image: url("../public/images/imagen1.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
