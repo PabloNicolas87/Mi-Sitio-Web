@@ -61,6 +61,14 @@ const MySkills = () => {
                         </div>
                         <div className="col-6 col-sm-4 col-md-3 p-3">
                             <div className="card d-flex justify-content-center align-items-center">
+                                <img src={'/images/angular.webp'} alt="Angular" />
+                                <div className="hover">
+                                    <span className="titulo">Angular</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-6 col-sm-4 col-md-3 p-3">
+                            <div className="card d-flex justify-content-center align-items-center">
                                 <img src={'/images/firebase.webp'} alt="Firebase" />
                                 <div className="hover">
                                     <span className="titulo">Firebase</span>
@@ -72,6 +80,14 @@ const MySkills = () => {
                                 <img src={'/images/github.webp'} alt="GitHub" />
                                 <div className="hover">
                                     <span className="titulo">GitHub</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-6 col-sm-4 col-md-3 p-3">
+                            <div className="card d-flex justify-content-center align-items-center">
+                                <img src={'/images/webflow.webp'} alt="Webflow" />
+                                <div className="hover">
+                                    <span className="titulo">Webflow</span>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +114,7 @@ const MySkills = () => {
                                     <span className="titulo">Google Analytics</span>
                                 </div>
                             </div>
-                        </div>
+                        </div>                       
                     </div>
                 </div>
                 <div className="col-12 col-md-5 d-flex flex-column justify-content-center p-5">
