@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next"
-import SwiperJS from "./Swiper";
+import SwiperJS from "../Swiper/Swiper";
+import './MyProjects.css';
 
 
 const MyProjects = () => {

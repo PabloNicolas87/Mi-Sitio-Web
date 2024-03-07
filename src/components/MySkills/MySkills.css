@@ -1,0 +1,55 @@
+.card {
+    /*background-image: url("../img/card.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background-color: transparent !important;
+    border: none !important;
+    transition: all 0.5s ease-out;  
+}
+.titulo {
+    position: absolute;
+}
+.card .hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+    color: white !important;
+}
+
+.card:hover .hover {
+    opacity: 1;
+}
+
+.hover span {
+    background: #3dced9;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #3dced9;
+    border-radius: 5px !important;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+.card:hover img {
+    filter: blur(4px);
+}
+
+.tarjetas {
+    border: 1px solid #03e9f4 !important;
+    border-radius: 10px;
+    background: rgb(0, 0, 0, 0.7) !important;
+}

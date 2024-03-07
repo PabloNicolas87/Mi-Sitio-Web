@@ -1,0 +1,33 @@
+.footer {
+    background-color: black !important;
+}
+.redes a {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+}
+.redes a img {
+    width: 40px;
+    height: 40px;
+}
+.redes a:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.footer span {
+    color: white !important;
+}
+.footer .redes a {
+    width: 20px;
+    height: 20px;
+}
+.footer .redes a img {
+    width: 20px;
+    height: 20px;
+    vertical-align: baseline !important;
+}

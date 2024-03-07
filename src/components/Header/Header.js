@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next"
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
+import './Header.css';
 
 const Header = () => {
     const [t, i18n ] = useTranslation("global");

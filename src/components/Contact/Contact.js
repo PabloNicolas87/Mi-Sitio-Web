@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import BotonDescargar from "./BotonDescargar";
+import BotonDescargar from "../BotonDescargar/BotonDescargar";
 
 const Contact = () => {
     const [t] = useTranslation("global");

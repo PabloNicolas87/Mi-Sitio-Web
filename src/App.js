@@ -1,9 +1,9 @@
-import Header from './components/Header';
-import AboutUs from './components/AboutUs';
-import MySkills from './components/MySkills';
-import MyProjects from './components/MyProjects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import AboutUs from './components/AboutUs/AboutUs';
+import MySkills from './components/MySkills/MySkills';
+import MyProjects from './components/MyProjects/MyProjects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 

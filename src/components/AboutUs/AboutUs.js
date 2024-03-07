@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next"
+import './AboutUs.css';
 
 const AboutUs = () => {
     const [t] = useTranslation("global");

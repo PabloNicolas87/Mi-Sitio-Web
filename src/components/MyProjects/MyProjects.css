@@ -1,0 +1,62 @@
+.btn-primary a,
+.btn-view-primary {
+    color: #03e9f4;
+    border: 1.5px solid #03e9f4;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.5s ease-out;
+    min-width: 100px !important;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 5px;
+}
+.btn-primary a:hover,
+.btn-view-primary:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+}
+.btn-view-secondary {
+    color: black;
+    border: 1.5px solid #03e9f4;
+    border-radius: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.5s ease-out;
+    min-width: 100px !important;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(3, 233, 244, 0.8);
+    padding: 5px;
+}
+.btn-view-secondary:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+}
+.modal-content {
+    background-color: rgb(0, 0, 0, 0.7) !important;
+    border: 1px solid #3dced9 !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 5px #03e9f4, 0px 0px 50px #03e9f4 !important;
+}
+.modal-content .modal-header,
+.modal-content .modal-body,
+.modal-content .modal-footer {
+    color: white !important;
+}
+
+.swiper-slide {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.swiper-slide img {
+    width: 150px !important;
+}
+.swiper-slide h3 {
+    color: white;
+    text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+}

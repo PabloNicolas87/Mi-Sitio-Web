@@ -1,9 +1,9 @@
 import 'swiper/css';
 import { useTranslation } from "react-i18next"
-import MyProjectsNubizate from "./MyProjectsNubizate";
-import MyProjectsCalculator from './MyProjectsCalculator';
-import MyProjectsEcommerce from './MyProjectsEcommerce';
-import MyProjectsTodoListApp from './MyProjectsTodoListApp';
+import MyProjectsNubizate from "../MyProjectsNubizate/MyProjectsNubizate";
+import MyProjectsCalculator from '../MyProjectsCalculator/MyProjectsCalculator';
+import MyProjectsEcommerce from '../MyProjectsEcommerce/MyProjectsEcommerce';
+import MyProjectsTodoListApp from '../MyProjectsTodoListApp/MyProjectsTodoListApp';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';

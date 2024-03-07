@@ -1,0 +1,35 @@
+.img-fondo {
+    background-image: url("/public/images/fondo1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.img-fondo div:nth-child(2) div {
+    height: auto;
+}
+.contenedor img {
+    width: 30px;
+    height: 70px;
+}
+.contenedor h2 {
+    font-size: 70px;
+    text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+    color: #03e9f4;
+    margin: 0px !important;
+}
+.descripcion {
+    color: white;
+    text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+    height: auto;
+}
+.descripcion p {
+    text-align: justify;
+}
+.imgSobreMi {
+    width: 100% !important;
+    min-height: 300px;
+    height:auto;
+}
