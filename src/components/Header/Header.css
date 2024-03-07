@@ -60,6 +60,17 @@
     background-color: #03e9f4 !important;
     color: #050801 !important;
 }
+.navbar-toggler {
+    border: 1px solid #03e9f4 !important;
+    transition: .5s !important;
+}
+.navbar-toggler svg {
+    color: #03e9f4 !important;
+}
+.navbar-toggler:focus
+{
+    box-shadow: none !important;
+}
 @media only screen and (max-width: 992px) {
     .nav-link {
         min-width: 250px !important;
