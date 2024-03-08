@@ -1,15 +1,3 @@
-.img-fondo {
-    background-image: url("/public/images/fondo1.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: auto;
-    min-height: 100vh;
-    padding-top: 20px;
-}
-.img-fondo div:nth-child(2) div {
-    height: auto;
-}
 .contenedor img {
     width: 30px;
     height: 70px;

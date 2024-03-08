@@ -10,3 +10,10 @@ body {
     }
 }
 
+.principal {
+    background-image: url("/public/images/fondo1.webp");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}

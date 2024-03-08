@@ -4,8 +4,8 @@ import BotonDescargar from "../BotonDescargar/BotonDescargar";
 const Contact = () => {
     const [t] = useTranslation("global");
     return(
-        <div className="img-fondo fondo d-flex flex-column justify-content-center">
-            <div className="contenedor d-flex justify-content-center align-items-center">
+        <div className="d-flex flex-column justify-content-center">
+            <div className="contenedor d-flex justify-content-center align-items-center pt-3">
                 <img src={'/images/barra.webp'} alt="barra" />
                 <h2>{t("contact.title")}</h2>
             </div>

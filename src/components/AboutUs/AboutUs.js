@@ -4,8 +4,8 @@ import './AboutUs.css';
 const AboutUs = () => {
     const [t] = useTranslation("global");
     return(
-        <div className="img-fondo fondo">
-            <div className="contenedor d-flex justify-content-center align-items-center">
+        <div>
+            <div className="contenedor d-flex justify-content-center align-items-center pt-3">
                 <img src={'/images/barra.webp'} alt="barra" width="273" height="464"/>
                 <h2>{t("aboutUs.title")}</h2>
             </div>
