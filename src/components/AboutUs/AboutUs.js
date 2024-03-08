@@ -14,13 +14,9 @@ const AboutUs = () => {
                     <img className="imgSobreMi" src={'/images/imagen2.webp'} alt="imagen2" width="400" height="400"/>
                 </div>
                 <div className="col-12 col-md-7 d-flex flex-column justify-content-center p-5 descripcion">
-                    <h3 className="text-center">Pablo Nicolás Girone</h3>
+                    <h3 className="text-center pb-3">Pablo Nicolás Girone</h3>
                     <p>{t("aboutUs.paragraph1")}</p>
-                    <br />
-                    <br />
                     <p>{t("aboutUs.paragraph2")}</p>
-                    <br />
-                    <br />
                     <p>{t("aboutUs.paragraph3")}</p>
                 </div>    
             </div>
