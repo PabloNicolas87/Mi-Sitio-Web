@@ -27,7 +27,7 @@ function MyProjectsTodoListApp() {
           <Modal.Title>{t("myProjects.project4")}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            {t("myProjects.descriptionProyect4")}
+            <p>{t("myProjects.descriptionProyect")}</p>
             <br />
             <SkillItem imageSrc="/images/angular.webp" title="Angular"  />
         </Modal.Body>

@@ -28,10 +28,7 @@
         "view": "Veja Mais",
         "close": "Fechar",
         "deploy": "Implantar",
-        "descriptionProyect1": "O site foi construído com as tecnologias de HTML, CSS e Javascript.",
-        "descriptionProyect2": "O site foi construído com as tecnologias de HTML, CSS e Javascript.",
-        "descriptionProyect3": "O site foi construído com as tecnologias de React JS e Firebase.",
-        "descriptionProyect4": "O site foi construído com a tecnologia de React JS."
+        "descriptionProyect": "O site foi construído com as tecnologias"
     },
     "footer": {
         "rights": "© 2024 Todos os Direitos Reservados"

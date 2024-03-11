@@ -44,7 +44,7 @@ const SwiperJS = () => {
         >
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project1")}</h3>
-            <img src={'/images/nubizate.webp'} alt="Landing-Page" />
+            <img src={'/images/landingpage.webp'} alt="Landing-Page" />
             <MyProjectsLanding />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>

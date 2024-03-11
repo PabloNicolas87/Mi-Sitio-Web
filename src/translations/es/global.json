@@ -28,10 +28,7 @@
         "view": "Ver Más",
         "close": "Cerrar",
         "deploy": "Implementar",
-        "descriptionProyect1": "Para construir este sítio, se utilizaron tecnologías de HTML, CSS y Javascript.",
-        "descriptionProyect2": "Para construir este sítio, se utilizaron tecnologías de HTML, CSS y Javascript.",
-        "descriptionProyect3": "Para construir este sítio, se utilizaron tecnologías de React JS y Firebase.",
-        "descriptionProyect4": "Para construir este sítio, se utilizó tecnología React JS"
+        "descriptionProyect": "Para construir este sítio, se utilizaron tecnologías"
     },
     "footer": {
         "rights": "© 2024 Todos los Derechos Reservados"

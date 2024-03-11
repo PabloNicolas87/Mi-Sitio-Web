@@ -27,9 +27,13 @@ function MyProjectsCalculator() {
           <Modal.Title>{t("myProjects.project2")}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            {t("myProjects.descriptionProyect2")}
+            <p>{t("myProjects.descriptionProyect")}</p>
             <br />
-            <SkillItem imageSrc="/images/javascript.webp" title="Javascript"  />
+            <div className='d-flex justify-content-around'>
+              <SkillItem imageSrc="/images/html.webp" title="Html"  />
+              <SkillItem imageSrc="/images/css.webp" title="Css"  />
+              <SkillItem imageSrc="/images/javascript.webp" title="Javascript"  />
+            </div>
         </Modal.Body>
         <Modal.Footer>
           <button className="btn-view-secondary" variant="secondary" onClick={handleClose}>

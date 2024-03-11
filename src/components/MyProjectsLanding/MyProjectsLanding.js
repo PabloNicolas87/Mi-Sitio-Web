@@ -28,7 +28,7 @@ function MyProjectsLanding() {
           <Modal.Title>{t("myProjects.project1")}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            {t("myProjects.descriptionProyect1")} 
+            <p>{t("myProjects.descriptionProyect")}</p>
             <br />
             <SkillItem imageSrc="/images/webflow.webp" title="Webflow"  />
         </Modal.Body>

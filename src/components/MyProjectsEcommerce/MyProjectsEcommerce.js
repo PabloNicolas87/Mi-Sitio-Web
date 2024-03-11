@@ -28,11 +28,12 @@ function MyProjectsEcommerce() {
           <Modal.Title>{t("myProjects.project3")}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            {t("myProjects.descriptionProyect3")}
+            <p>{t("myProjects.descriptionProyect")}</p>
             <br />
             <div className='d-flex justify-content-around'>
               <SkillItem imageSrc="/images/react.webp" title="React"  />
               <SkillItem imageSrc="/images/firebase.webp" title="Firebase"  />
+              <SkillItem imageSrc="/images/bootstrap.webp" title="Bootstrap"  />
             </div>
         </Modal.Body>
         <Modal.Footer>

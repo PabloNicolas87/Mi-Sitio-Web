@@ -28,10 +28,7 @@
         "view": "View More",
         "close": "Close",
         "deploy": "Deploy it",
-        "descriptionProyect1": "This site was built with HTML, CSS and Javascript technologies.",
-        "descriptionProyect2": "This site was built with HTML, CSS and Javascript technologies.",
-        "descriptionProyect3": "This site was built with React Js and Firebase technologies.",
-        "descriptionProyect4": "This site was built with React Js technology."
+        "descriptionProyect": "This site was built with technologies."
     },
     "footer": {
         "rights": "© 2024 All Rights Reserved"
