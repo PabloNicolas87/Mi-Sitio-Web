@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { useTranslation } from "react-i18next"
+import SkillItem from '../SkillItem/SkillItem';
+
 
 function MyProjectsEcommerce() {
   const [show, setShow] = useState(false);
@@ -27,6 +29,11 @@ function MyProjectsEcommerce() {
         </Modal.Header>
         <Modal.Body>
             {t("myProjects.descriptionProyect3")}
+            <br />
+            <div className='d-flex justify-content-around'>
+              <SkillItem imageSrc="/images/react.webp" title="React"  />
+              <SkillItem imageSrc="/images/firebase.webp" title="Firebase"  />
+            </div>
         </Modal.Body>
         <Modal.Footer>
           <button className="btn-view-secondary" variant="secondary" onClick={handleClose}>

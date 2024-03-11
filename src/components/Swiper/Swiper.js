@@ -1,6 +1,6 @@
 import 'swiper/css';
 import { useTranslation } from "react-i18next"
-import MyProjectsNubizate from "../MyProjectsNubizate/MyProjectsNubizate";
+import MyProjectsLanding from "../MyProjectsLanding/MyProjectsLanding";
 import MyProjectsCalculator from '../MyProjectsCalculator/MyProjectsCalculator';
 import MyProjectsEcommerce from '../MyProjectsEcommerce/MyProjectsEcommerce';
 import MyProjectsTodoListApp from '../MyProjectsTodoListApp/MyProjectsTodoListApp';
@@ -44,8 +44,8 @@ const SwiperJS = () => {
         >
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project1")}</h3>
-            <img src={'/images/nubizate.webp'} alt="Nubizate" />
-            <MyProjectsNubizate />
+            <img src={'/images/nubizate.webp'} alt="Landing-Page" />
+            <MyProjectsLanding />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project2")}</h3>

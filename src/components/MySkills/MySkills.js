@@ -1,9 +1,10 @@
-import { useTranslation } from "react-i18next"
-import './MySkills.css';
+import React from 'react';
+import { useTranslation } from "react-i18next";
+import SkillCard from '../SkillCard/SkillCard';
 
 const MySkills = () => {
     const [t] = useTranslation("global");
-    return(
+    return (
         <div>
             <div className="contenedor d-flex justify-content-center align-items-center pt-3">
                 <img src={'/images/barra.webp'} alt="barra" />
@@ -12,118 +13,27 @@ const MySkills = () => {
             <div className="d-flex flex-column flex-md-row">
                 <div className="col-12 col-md-7 p-5">
                     <div className="tarjetas d-flex row">
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/html.webp'} alt="Html" />
-                                <div className="hover">
-                                    <span className="titulo">HTML5</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/css.webp'} alt="Css" />
-                                <div className="hover">
-                                    <span className="titulo">CSS3</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/bootstrap.webp'} alt="Bootstrap" />
-                                <div className="hover">
-                                    <span className="titulo">Bootstrap</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/jquery.webp'} alt="JQuery" />
-                                <div className="hover">
-                                    <span className="titulo">Jquery</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/javascript.webp'} alt="Javascript" />
-                                <div className="hover">
-                                    <span className="titulo">Javascript</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/react.webp'} alt="React" />
-                                <div className="hover">
-                                    <span className="titulo">React JS</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/angular.webp'} alt="Angular" />
-                                <div className="hover">
-                                    <span className="titulo">Angular</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/firebase.webp'} alt="Firebase" />
-                                <div className="hover">
-                                    <span className="titulo">Firebase</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/github.webp'} alt="GitHub" />
-                                <div className="hover">
-                                    <span className="titulo">GitHub</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/webflow.webp'} alt="Webflow" />
-                                <div className="hover">
-                                    <span className="titulo">Webflow</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/tagmanager.webp'} alt="GoogleTagManager" />
-                                <div className="hover">
-                                    <span className="titulo">Google Tag Manager</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/googleads.webp'} alt="GoogleAds" />
-                                <div className="hover">
-                                    <span className="titulo">Google Ads</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-6 col-sm-4 col-md-3 p-3">
-                            <div className="card d-flex justify-content-center align-items-center">
-                                <img src={'/images/googleanalytics.webp'} alt="GoogleAnalytics" />
-                                <div className="hover">
-                                    <span className="titulo">Google Analytics</span>
-                                </div>
-                            </div>
-                        </div>                       
+                        <SkillCard imageSrc="/images/html.webp" title="HTML5" />
+                        <SkillCard imageSrc="/images/css.webp" title="CSS3" />
+                        <SkillCard imageSrc="/images/bootstrap.webp" title="Bootstrap" />
+                        <SkillCard imageSrc="/images/jquery.webp" title="JQuery" />
+                        <SkillCard imageSrc="/images/javascript.webp" title="Javascript" />
+                        <SkillCard imageSrc="/images/react.webp" title="React JS" />
+                        <SkillCard imageSrc="/images/angular.webp" title="Angular" />
+                        <SkillCard imageSrc="/images/firebase.webp" title="Firebase" />
+                        <SkillCard imageSrc="/images/github.webp" title="GitHub" />
+                        <SkillCard imageSrc="/images/webflow.webp" title="Webflow" />
+                        <SkillCard imageSrc="/images/tagmanager.webp" title="Google Tag Manager" />
+                        <SkillCard imageSrc="/images/googleads.webp" title="Google Ads" />
+                        <SkillCard imageSrc="/images/googleanalytics.webp" title="Google Analytics" />
                     </div>
                 </div>
                 <div className="col-12 col-md-5 d-flex flex-column justify-content-center p-5">
-                    <img src={'/images/imagen3.webp'} alt="Imágen 3" width="100%"/>
-                </div>    
+                    <img src={'/images/imagen3.webp'} alt="Imágen 3" width="100%" />
+                </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default MySkills
+export default MySkills;

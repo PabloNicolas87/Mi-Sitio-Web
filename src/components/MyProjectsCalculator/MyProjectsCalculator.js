@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { useTranslation } from "react-i18next"
+import SkillItem from '../SkillItem/SkillItem';
 
 function MyProjectsCalculator() {
   const [show, setShow] = useState(false);
@@ -27,6 +28,8 @@ function MyProjectsCalculator() {
         </Modal.Header>
         <Modal.Body>
             {t("myProjects.descriptionProyect2")}
+            <br />
+            <SkillItem imageSrc="/images/javascript.webp" title="Javascript"  />
         </Modal.Body>
         <Modal.Footer>
           <button className="btn-view-secondary" variant="secondary" onClick={handleClose}>
