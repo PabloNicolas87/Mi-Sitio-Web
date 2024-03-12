@@ -7,10 +7,9 @@ import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
-import global_es from "./translations/es/global.json"
-import global_en from "./translations/en/global.json"
-import global_por from "./translations/por/global.json"
+import global_es from "./translations/es/global.json";
+import global_en from "./translations/en/global.json";
+import global_por from "./translations/por/global.json";
 
 i18next.init({
   iterpolation: {escapeValue: false },
