@@ -1,6 +1,5 @@
-import 'swiper/css';
-import { useTranslation } from "react-i18next"
-import MyProjectsCard from '../MyProjectsCard/MyProjectsCard';
+import './Swiper.css';
+import { useTranslation } from "react-i18next";
 import MyProjectsItem from '../MyProjectsItem/MyProjectsItem';
 
 // Import Swiper React components
@@ -40,8 +39,9 @@ const SwiperJS = () => {
         pagination={{ clickable: true }}
         loop = {true}
         >
-        <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
-            <MyProjectsCard imageSrc="/images/landingpage.webp" title={t("myProjects.project1")} />
+        <SwiperSlide className='custom-swiper-slide d-flex flex-column justify-content-between p-5'>
+            <h3>{t("myProjects.project1")}</h3>
+            <img src={'/images/landingpage.webp'} alt={t("myProjects.project1")} />
             <MyProjectsItem
                 title={t("myProjects.project1")}
                 deploymentLink="https://landing-page-xi-tan.vercel.app/"
@@ -50,8 +50,9 @@ const SwiperJS = () => {
                 ]}
             />
         </SwiperSlide>
-        <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
-            <MyProjectsCard imageSrc="/images/calculadora.webp" title={t("myProjects.project2")} />
+        <SwiperSlide className='custom-swiper-slide d-flex flex-column justify-content-between p-5'>
+            <h3>{t("myProjects.project2")}</h3>
+            <img src={'/images/calculadora.webp'} alt={t("myProjects.project2")} />
             <MyProjectsItem
                 title={t("myProjects.project2")}
                 deploymentLink="ttps://js-curso-xi.vercel.app/"
@@ -62,8 +63,9 @@ const SwiperJS = () => {
                 ]}
             />
         </SwiperSlide>
-        <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
-            <MyProjectsCard imageSrc="/images/Ecommerce.webp" title={t("myProjects.project3")} />
+        <SwiperSlide className='custom-swiper-slide d-flex flex-column justify-content-between p-5'>
+            <h3>{t("myProjects.project3")}</h3>
+            <img src={'/images/Ecommerce.webp'} alt={t("myProjects.project3")} />
             <MyProjectsItem
                 title={t("myProjects.project3")}
                 deploymentLink="https://react-curso-alpha.vercel.app/"
@@ -74,9 +76,9 @@ const SwiperJS = () => {
                 ]}
             />
         </SwiperSlide>
-        <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
+        <SwiperSlide className='custom-swiper-slide d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project4")}</h3>
-            <img src={'/images/TodoListApp.webp'} alt="To Do List App" />
+            <img src={'/images/TodoListApp.webp'} alt={t("myProjects.project4")} />
             <MyProjectsItem
                 title={t("myProjects.project4")}
                 deploymentLink="https://to-do-list-app-psi.vercel.app/"
