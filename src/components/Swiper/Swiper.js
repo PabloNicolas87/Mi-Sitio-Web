@@ -1,9 +1,7 @@
 import 'swiper/css';
 import { useTranslation } from "react-i18next"
-import MyProjectsLanding from "../MyProjectsLanding/MyProjectsLanding";
-import MyProjectsCalculator from '../MyProjectsCalculator/MyProjectsCalculator';
-import MyProjectsEcommerce from '../MyProjectsEcommerce/MyProjectsEcommerce';
-import MyProjectsTodoListApp from '../MyProjectsTodoListApp/MyProjectsTodoListApp';
+import MyProjectsCard from '../MyProjectsCard/MyProjectsCard';
+import MyProjectsItem from '../MyProjectsItem/MyProjectsItem';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -43,24 +41,49 @@ const SwiperJS = () => {
         loop = {true}
         >
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
-            <h3>{t("myProjects.project1")}</h3>
-            <img src={'/images/landingpage.webp'} alt="Landing-Page" />
-            <MyProjectsLanding />
+            <MyProjectsCard imageSrc="/images/landingpage.webp" title={t("myProjects.project1")} />
+            <MyProjectsItem
+                title={t("myProjects.project1")}
+                deploymentLink="https://landing-page-xi-tan.vercel.app/"
+                skills={[
+                    { imageSrc: "/images/webflow.webp", title: "Webflow" },
+                ]}
+            />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
-            <h3>{t("myProjects.project2")}</h3>
-            <img src={'/images/calculadora.webp'} alt="Calculadora" />
-            <MyProjectsCalculator />
+            <MyProjectsCard imageSrc="/images/calculadora.webp" title={t("myProjects.project2")} />
+            <MyProjectsItem
+                title={t("myProjects.project2")}
+                deploymentLink="ttps://js-curso-xi.vercel.app/"
+                skills={[
+                    { imageSrc: "/images/html.webp", title: "Html" },
+                    { imageSrc: "/images/css.webp", title: "Css" },
+                    { imageSrc: "/images/javascript.webp", title: "Javascript" },
+                ]}
+            />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
-            <h3>{t("myProjects.project3")}</h3>
-            <img src={'/images/Ecommerce.webp'} alt="Ecommerce" />
-            <MyProjectsEcommerce />
+            <MyProjectsCard imageSrc="/images/Ecommerce.webp" title={t("myProjects.project3")} />
+            <MyProjectsItem
+                title={t("myProjects.project3")}
+                deploymentLink="https://react-curso-alpha.vercel.app/"
+                skills={[
+                    { imageSrc: "/images/react.webp", title:"React" },
+                    { imageSrc: "/images/firebase.webp", title: "Firebase" },
+                    { imageSrc: "/images/bootstrap.webp", title: "Bootstrap" },
+                ]}
+            />
         </SwiperSlide>
         <SwiperSlide className='d-flex flex-column justify-content-between p-5'>
             <h3>{t("myProjects.project4")}</h3>
             <img src={'/images/TodoListApp.webp'} alt="To Do List App" />
-            <MyProjectsTodoListApp />
+            <MyProjectsItem
+                title={t("myProjects.project4")}
+                deploymentLink="https://to-do-list-app-psi.vercel.app/"
+                skills={[
+                    { imageSrc: "/images/angular.webp", title: "Angular" },
+                ]}
+            />
         </SwiperSlide>
         </Swiper>
     );
