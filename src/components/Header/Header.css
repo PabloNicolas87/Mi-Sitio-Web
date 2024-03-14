@@ -17,8 +17,9 @@
     margin-left: 5px;
     margin-right: 5px;
     transition: all 0.5s ease-out;
-    width: -moz-fit-content;  
-    width: fit-content;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .nav-link:hover,
 .nav-link.active,
@@ -75,5 +76,9 @@
     .nav-link {
         min-width: 250px !important;
     }
+}
+.offcanvas {
+    background-color: #495979 !important
+    ;
 }
 /*End Navbar*/
