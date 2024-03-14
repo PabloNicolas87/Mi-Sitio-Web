@@ -1,50 +1,17 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "react-i18next";
 import BotonDescargar from "../BotonDescargar/BotonDescargar";
+import SocialIconList from '../SocialIconList/SocialIconList';
+import Title from '../Title/Title';
 
 const Contact = () => {
     const [t] = useTranslation("global");
     return(
         <div className="d-flex flex-column justify-content-center">
-            <div className="contenedor d-flex justify-content-center align-items-center pt-3">
-                <img src={'/images/barra.webp'} alt="barra" />
-                <h2>{t("contact.title")}</h2>
-            </div>
-            <div className="py-5">
-                <div className="redes">
-                    <ul className="nav redes col-12 justify-content-center list-unstyled d-flex">
-                        <li className="ms-3">
-                            <a className="text-muted" href="https://api.whatsapp.com/send?phone=5547996251091&text=Hola%20Pablo!%20Quisiera%20contactarme%20contigo!" target="_blank" rel='noreferrer'>
-                                <img src={'/images/whatsapp.webp'} alt="Whatsapp" />
-                            </a>
-                        </li>
-                        <li className="ms-3">
-                            <a className="text-muted" href="https://www.linkedin.com/in/pablogirone" target="_blank" rel='noreferrer'>
-                                <img src={'/images/linkedin.webp'} alt="Linkedin" />
-                            </a>
-                        </li>
-                        <li className="ms-3">
-                            <a className="text-muted" href="https://www.instagram.com/pgirone/" target="_blank" rel='noreferrer'>
-                                <img src={'/images/instagram.webp'} alt="Instagram" />
-                            </a>
-                        </li>
-                        <li className="ms-3">
-                            <a className="text-muted" href="https://www.facebook.com/pablo.girone.1" target="_blank" rel='noreferrer'>
-                                <img src={'/images/facebook.webp'} alt="Facebook" />
-                            </a>
-                        </li>
-                        <li className="ms-3">
-                            <a className="text-muted" href="https://github.com/Pablo728" target="_blank" rel='noreferrer'>
-                                <img src={'/images/github.webp'} alt="GitHub" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className="contenedor d-flex justify-content-center align-items-center">
-                <BotonDescargar></BotonDescargar>
-            </div>
+            <Title titulo={t("contact.title")} />
+            <SocialIconList />
+            <BotonDescargar />
         </div>
     )
 }
 
-export default Contact
+export default Contact;
