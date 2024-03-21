@@ -1,9 +1,9 @@
 import React from 'react';
+import './Title.css';
 
 const Title = ({ titulo }) => {
     return (
-        <div className="contenedor d-flex justify-content-center align-items-center pt-3">
-            <img src={'/images/barra.webp'} alt="barra" width="273" height="464"/>
+        <div className="contenedor d-flex justify-content-center align-items-center">
             <h2>{titulo}</h2>
         </div>
     );

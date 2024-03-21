@@ -1,5 +1,6 @@
 import React from 'react';
 import SocialIcon from '../SocialIcon/SocialIcon';
+import './SocialIconList.css';
 
 const SocialIconList = () => {
 

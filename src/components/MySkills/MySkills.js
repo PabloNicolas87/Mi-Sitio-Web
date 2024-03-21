@@ -7,11 +7,13 @@ import Image from '../Image/Image';
 const MySkills = () => {
     const [t] = useTranslation("global");
     return (
-        <div className="fondo" id="MySkills">
-            <Title titulo={t("mySkills.title")} />
-            <div className="d-flex flex-column flex-md-row p-5">
-                <SkillCard />
-                <Image srcImg={'/images/imagen2.webp'}/>
+        <div className="fondo fondogris" id="MySkills">
+            <div className='container'>
+                <Title titulo={t("mySkills.title")} />
+                <div className="d-flex flex-column flex-md-row py-5">
+                    <SkillCard />
+                    <Image srcImg={'/images/imagen2.webp'} nameImg={ 'Imagen2' } />
+                </div>    
             </div>
         </div>
     );

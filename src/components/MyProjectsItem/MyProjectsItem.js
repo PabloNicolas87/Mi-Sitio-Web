@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { useTranslation } from "react-i18next"
 import SkillItem from '../SkillItem/SkillItem';
+import './MyProjectsItem.css';
 
 function MyProjectsItem({ title, description, imageSrc, deploymentLink, skills }) {
   const [show, setShow] = useState(false);
@@ -29,7 +30,7 @@ function MyProjectsItem({ title, description, imageSrc, deploymentLink, skills }
         <Modal.Body>
           <p>{t("myProjects.descriptionProyect")}</p>
           <br />
-          <div className="d-flex justify-content-around">
+          <div className="d-flex justify-content-around flex-column flex-sm-row align-items-center">
             {skills.map((skill, index) => (
               <SkillItem key={index} imageSrc={skill.imageSrc} title={skill.title} />
             ))}

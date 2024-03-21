@@ -1,21 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-
-body {
-    font-family: 'Anonymous Pro', monospace; 
-}
-
-@media only screen and (max-width: 768px) {
-    .contenedor h2 {
-        font-size: 40px;
-    }
-}
-
 .principal {
-    /*background-image: url("/public/images/fondo1.webp");
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,5 +14,8 @@ body {
 .fondo {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: black;
+}
+
+.fondogris {
+    background-color: #fafafa;
 }

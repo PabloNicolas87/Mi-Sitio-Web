@@ -1,0 +1,23 @@
+.modal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fafafa;
+    border-radius: 5px !important;
+    min-width: 580px;
+}
+
+@media only screen and (max-width: 575px) {
+    .modal-content {
+        min-width: auto;
+    }
+}
+
+.modal-content .modal-header,
+.modal-content .modal-body,
+.modal-content .modal-footer {
+    color: #272729 !important;
+}

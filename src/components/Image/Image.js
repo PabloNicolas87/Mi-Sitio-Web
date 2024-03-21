@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-const Image = ({ srcImg }) => {
+const Image = ({ srcImg, nameImg }) => {
     return(
-        <div className="d-flex justify-content-center col-12 col-md-5 p-5">
-            <img src={ srcImg } alt="" width="" height=""/>
+        <div className="d-flex justify-content-center col-12 col-md-5">
+            <img src={ srcImg } alt={ nameImg } width="400px" height="400px"/>
         </div>
     )
 }

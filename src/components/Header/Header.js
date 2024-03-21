@@ -10,29 +10,29 @@ const Header = () => {
     return (
         <nav className="navbar fixed-top">
             <div className="container-fluid">
+                <Logo />
                 <div>
-                    <Logo />
                     <div className="btn-group">
                         <button type="button" className="btn btn-secondary btn-idioma dropdown-toggle m-0" data-bs-toggle="dropdown" aria-expanded="false">
                             {t("header.select-language")}
                         </button>
                         <ul className="dropdown-menu dropdown-menu-end lista-idiomas">
                             <li>
-                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("es")}>{t("header.spanish")}<img src={'/images/arg.webp'} alt={t("header.spanish")} /></button>
+                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("es")}>{t("header.spanish")}<img src={'/images/arg.webp'} alt={t("header.spanish")} width="30px" height="30px" /></button>
                             </li>
                             <li>
-                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("por")}>{t("header.portuguese")}<img src={'/images/bra.webp'} alt={t("header.portuguese")} /></button>
+                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("por")}>{t("header.portuguese")}<img src={'/images/bra.webp'} alt={t("header.portuguese")} width="30px" height="30px" /></button>
                             </li>
                             <li>
-                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("en")}>{t("header.english")}<img src={'/images/eeuu.webp'} alt={t("header.english")} /></button>
+                                <button className="dropdown-item d-flex justify-content-between align-items-center" onClick={() => i18n.changeLanguage("en")}>{t("header.english")}<img src={'/images/eeuu.webp'} alt={t("header.english")} width="30px" height="30px" /></button>
                             </li>
                         </ul>
-                    </div>    
+                    </div>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
                 </div>
-                
-                <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+
                 <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div className="offcanvas-header">
                         <Logo />

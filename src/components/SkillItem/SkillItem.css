@@ -16,7 +16,6 @@
     opacity: 0;
     transition: all 0.5s ease-out;
     width: 100%;
-    text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
     color: white !important;
 }
 
@@ -25,10 +24,9 @@
 }
 
 .hover span {
-    background: #3dced9;
+    background: #272729 !important;
     color: #fff;
     padding: 10px;
-    border: 1px solid #3dced9;
     border-radius: 5px !important;
     font-size: 12px;
     letter-spacing: 1px;
@@ -36,16 +34,11 @@
     text-align: center;
 }
 .card img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .card:hover img {
     filter: blur(4px);
 }
 
-.tarjetas {
-    border: 1px solid #03e9f4 !important;
-    border-radius: 10px;
-    background: rgb(0, 0, 0, 0.7) !important;
-}

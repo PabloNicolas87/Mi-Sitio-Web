@@ -6,10 +6,16 @@ import Title from '../Title/Title';
 const Contact = () => {
     const [t] = useTranslation("global");
     return(
-        <div id="Contact" className="fondo d-flex flex-column justify-content-center">
-            <Title titulo={t("contact.title")} />
-            <SocialIconList />
-            <BotonDescargar />
+        <div id="Contact" className="fondo fondogris">
+            <div className="container d-flex flex-column justify-content-center">
+                <Title titulo={t("contact.title")} />
+                <div className="py-5 d-flex flex-column justify-content-center">
+                    <SocialIconList />
+                    <div className="m-auto">
+                        <BotonDescargar />   
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

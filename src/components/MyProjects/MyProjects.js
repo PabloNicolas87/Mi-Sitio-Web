@@ -8,9 +8,11 @@ const MyProjects = () => {
     const [t] = useTranslation("global");
     return(
         <div className="fondo" id="MyProjects">
-            <Title titulo={t("myProjects.title")} />
-            <div className="container pt-4">
-                <SwiperJS />  
+            <div className="container">
+                <Title titulo={t("myProjects.title")} />
+                <div className="py-5">
+                    <SwiperJS />  
+                </div>    
             </div>
         </div>  
     )
