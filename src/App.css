@@ -11,14 +11,25 @@ body {
 }
 
 .principal {
-    background-image: url("/public/images/fondo1.webp");
+    /*background-image: url("/public/images/fondo1.webp");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: auto;
+    height: auto;
     overflow: hidden;
+}
+
+.cuerpoPagina {
+    padding-top: 100px;
+}
+
+.fondo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
 }

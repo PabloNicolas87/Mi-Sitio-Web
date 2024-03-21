@@ -4,20 +4,55 @@
 }
 .contenedor h2 {
     font-size: 70px;
-    text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
-    color: #03e9f4;
+    text-shadow: 0px 0px 50px black;
+    /*text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;*/
+    color: white;
     margin: 0px !important;
 }
 .descripcion {
     color: white;
-    text-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+    text-shadow: 0px 0px 50px black;
     height: auto;
+    font-weight: 400;
 }
 .descripcion p {
     text-align: justify;
+    font-weight: 400;
 }
 .imgSobreMi {
     width: 100% !important;
     min-height: 300px;
     height:auto;
 }
+
+.fondoAboutUs {
+    position: relative;
+    overflow: hidden;
+}
+
+.fondoAboutUs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Ajusta la opacidad según sea necesario */
+    z-index: -1;
+}
+
+.fondoAboutUs::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/images/1.webp");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; /* Ajusta la opacidad según sea necesario */
+    z-index: -2;
+}
+

@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 const Contact = () => {
     const [t] = useTranslation("global");
     return(
-        <div className="d-flex flex-column justify-content-center">
+        <div id="Contact" className="fondo d-flex flex-column justify-content-center">
             <Title titulo={t("contact.title")} />
             <SocialIconList />
             <BotonDescargar />

@@ -5,14 +5,25 @@ import MyProjects from './components/MyProjects/MyProjects';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import './App.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
+/* import { Routes } from 'react-router-dom';
+import { Route} from 'react-router-dom';*/
 
 function App() {
 
   return (
     <div className='principal'>
-      
+        
         <BrowserRouter>
+          <Header />
+          <div className='cuerpoPagina'>
+            <AboutUs/>
+            <MySkills />
+            <MyProjects />
+            <Contact />
+          </div>
+          <Footer /> 
+          {/*
           <Header />
           <Routes>
               <Route path='/' element={ <AboutUs /> }></Route>
@@ -21,8 +32,8 @@ function App() {
               <Route path='/Contact' element={ <Contact /> }></Route>
             </Routes> 
           <Footer />
+          */} 
         </BrowserRouter>
-      
     </div>
   );
 }

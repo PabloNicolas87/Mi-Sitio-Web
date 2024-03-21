@@ -7,7 +7,7 @@ import './MyProjects.css';
 const MyProjects = () => {
     const [t] = useTranslation("global");
     return(
-        <div>
+        <div className="fondo" id="MyProjects">
             <Title titulo={t("myProjects.title")} />
             <div className="container pt-4">
                 <SwiperJS />  

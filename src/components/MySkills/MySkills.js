@@ -7,12 +7,11 @@ import Image from '../Image/Image';
 const MySkills = () => {
     const [t] = useTranslation("global");
     return (
-        <div>
+        <div className="fondo" id="MySkills">
             <Title titulo={t("mySkills.title")} />
             <div className="d-flex flex-column flex-md-row p-5">
                 <SkillCard />
                 <Image srcImg={'/images/imagen2.webp'}/>
-                
             </div>
         </div>
     );
