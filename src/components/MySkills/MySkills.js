@@ -10,9 +10,11 @@ const MySkills = () => {
         <div className="fondo fondogris" id="MySkills">
             <div className='container'>
                 <Title titulo={t("mySkills.title")} />
-                <div className="d-flex flex-column flex-md-row py-5">
+                <div className="d-flex flex-column flex-md-row pt-5">
                     <SkillCard />
-                    <Image srcImg={'/images/imagen2.webp'} nameImg={ 'Imagen2' } />
+                    <div className="d-none d-md-flex justify-content-center w-100">
+                        <Image srcImg={'/images/imagen2.webp'} nameImg={ 'Imagen2' } />
+                    </div>
                 </div>    
             </div>
         </div>

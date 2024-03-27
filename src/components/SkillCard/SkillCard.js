@@ -15,13 +15,14 @@ const SkillCard = ({ imageSrc, title }) => {
         { imageSrc: "/images/github.webp", title: "GitHub" },
         { imageSrc: "/images/webflow.webp", title: "Webflow" },
         { imageSrc: "/images/wordpress.webp", title: "Wordpress" },
+        { imageSrc: "/images/metaads.webp", title: "Meta Ads" },
         { imageSrc: "/images/tagmanager.webp", title: "Google Tag Manager" },
         { imageSrc: "/images/googleads.webp", title: "Google Ads" },
         { imageSrc: "/images/googleanalytics.webp", title: "Google Analytics" },
     ];
     
     return (
-        <div className="col-12 col-md-7 d-flex flex-column justify-content-center pb-5 pb-md-0">
+        <div className="col-12 col-md-7 d-flex flex-column justify-content-center">
             <div className="tarjetas d-flex row p-2">
             {skills.map((skill, index) => (
                 <SkillItem key={index} imageSrc={skill.imageSrc} title={skill.title} />
