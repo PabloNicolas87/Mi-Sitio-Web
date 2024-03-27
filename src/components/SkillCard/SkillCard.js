@@ -21,7 +21,7 @@ const SkillCard = ({ imageSrc, title }) => {
     ];
     
     return (
-        <div className="col-12 col-md-7 d-flex flex-column justify-content-center">
+        <div className="col-12 col-md-7 d-flex flex-column justify-content-center pb-5 pb-md-0">
             <div className="tarjetas d-flex row p-2">
             {skills.map((skill, index) => (
                 <SkillItem key={index} imageSrc={skill.imageSrc} title={skill.title} />

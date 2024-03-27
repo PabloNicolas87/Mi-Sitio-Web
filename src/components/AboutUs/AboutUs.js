@@ -15,6 +15,10 @@ const AboutUs = () => {
                         <p>{t("aboutUs.paragraph1")}</p>
                         <p>{t("aboutUs.paragraph2")}</p>
                         <p>{t("aboutUs.paragraph3")}</p>
+                        <p>{t("aboutUs.paragraph4")}</p>
+                        <p>{t("aboutUs.paragraph5")}</p>
+                        <p>{t("aboutUs.paragraph6")}</p>
+                        <p>{t("aboutUs.paragraph7")}</p>
                     </div>    
                 </div>
             </div>
