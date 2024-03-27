@@ -9,3 +9,8 @@
         font-size: 40px;
     }
 }
+
+/*MODO OSCURO*/
+.modo-oscuro .contenedor h2 {
+    color: white;
+}

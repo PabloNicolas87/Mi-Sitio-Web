@@ -6,16 +6,21 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import { BrowserRouter} from 'react-router-dom';
-/* import { Routes } from 'react-router-dom';
-import { Route} from 'react-router-dom';*/
+import React, { useState } from 'react';
 
 function App() {
+  const [modoOscuro, setModoOscuro] = useState(false);
+
+  const toggleModo = () => {
+      setModoOscuro(!modoOscuro);
+  };
 
   return (
-    <div className='principal'>
+    
+    <div className={`principal ${modoOscuro ? 'modo-oscuro' : ''}`}>
         
         <BrowserRouter>
-          <Header />
+        <Header toggleModo={toggleModo} modoOscuro={modoOscuro} />
           <div className='cuerpoPagina'>
             <AboutUs/>
             <MySkills />
@@ -23,19 +28,9 @@ function App() {
             <Contact />
           </div>
           <Footer /> 
-          {/*
-          <Header />
-          <Routes>
-              <Route path='/' element={ <AboutUs /> }></Route>
-              <Route path='/MySkills' element={ <MySkills /> }></Route>
-              <Route path='/MyProjects' element={ <MyProjects /> }></Route>
-              <Route path='/Contact' element={ <Contact /> }></Route>
-            </Routes> 
-          <Footer />
-          */} 
         </BrowserRouter>
-    </div>
-  );
-}
+        </div>
+      );
+    }
 
 export default App;

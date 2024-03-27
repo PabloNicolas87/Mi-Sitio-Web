@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next"
 import SwiperJS from "../Swiper/Swiper";
 import Title from '../Title/Title';
-import './MyProjects.css';
 
 
 const MyProjects = () => {

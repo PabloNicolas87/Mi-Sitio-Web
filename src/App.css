@@ -6,16 +6,27 @@
     height: auto;
     overflow: hidden;
 }
-
 .cuerpoPagina {
     padding-top: 100px;
 }
-
 .fondo {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .fondogris {
-    background-color: #fafafa;
+    background-color: #f0f0f2;
+}
+
+/*MODO OSCURO*/
+.modo-oscuro .fondo {
+    background-color: #141414;
+}
+
+.modo-oscuro .fondogris {
+    background-color: #000000;
+}
+
+.modo-oscuro .fondoAboutUs h3,
+.modo-oscuro .fondoAboutUs p {
+    color: white;
 }

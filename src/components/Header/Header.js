@@ -1,11 +1,11 @@
-import React from 'react';
 import { useTranslation } from "react-i18next";
 import Logo from '../Logo/Logo.js';
 import NavItems from '../NavItem/NavItem.js';
+import Switcher from '../Switcher/Switcher.js';
 import './Header.css';
 
-const Header = () => {
-    const [t, i18n ] = useTranslation("global");
+const Header = ({ toggleModo, modoOscuro }) => {
+    const [t, i18n] = useTranslation("global");
 
     return (
         <nav className="navbar fixed-top">
@@ -34,19 +34,25 @@ const Header = () => {
                 </div>
 
                 <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div className="offcanvas-header">
-                        <Logo />
+                    <div className="offcanvas-header d-flex justify-content-end">
                         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div className="offcanvas-body">
-                        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <div className="offcanvas-body d-flex flex-column justify-content-between">
+                        <ul className="navbar-nav flex-grow-1 pe-3">
                             <NavItems />
                         </ul>
+                        <div className="d-flex justify-content-around align-items-center">
+                            <p className="m-0">Light Mode</p>
+                            <Switcher toggleModo={toggleModo} modoOscuro={modoOscuro} />
+                            <p className="m-0">Dark Mode</p>
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </nav>
     )
 }
+
 
 export default Header;

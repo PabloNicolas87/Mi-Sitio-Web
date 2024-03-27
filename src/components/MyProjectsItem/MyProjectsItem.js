@@ -14,7 +14,7 @@ function MyProjectsItem({ title, description, imageSrc, deploymentLink, skills }
 
   return (
     <>
-      <button className="btn-view-primary" variant="primary" onClick={handleShow}>
+      <button className="btn-view-primary" onClick={handleShow}>
         {t("myProjects.view")}
       </button>
 
@@ -37,10 +37,10 @@ function MyProjectsItem({ title, description, imageSrc, deploymentLink, skills }
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <button className="btn-view-secondary" variant="secondary" onClick={handleClose}>
+          <button className="btn-view-secondary" onClick={handleClose}>
             {t("myProjects.close")}
           </button>
-          <a onClick={handleClose} variant="primary" className="btn-view-primary" href={deploymentLink} rel="noreferrer" target="_blank">{t("myProjects.deploy")}</a>
+          <a onClick={handleClose} className="btn-view-primary" href={deploymentLink} rel="noreferrer" target="_blank">{t("myProjects.deploy")}</a>
         </Modal.Footer>
       </Modal>
     </>
