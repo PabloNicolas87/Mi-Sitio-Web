@@ -50,6 +50,14 @@ const SwiperJS = () => {
             skills: [
                 { imageSrc: "/images/angular.webp", title: "Angular" }
             ]
+        },
+        {
+            title: t("myProjects.project5"),
+            imageSrc: "/images/cacconsulting.webp",
+            deploymentLink: "https://cacconsulting.com.br/",
+            skills: [
+                { imageSrc: "/images/wordpress.webp", title: "Wordpress" }
+            ]
         }
     ];
 

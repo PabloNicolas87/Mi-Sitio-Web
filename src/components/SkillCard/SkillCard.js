@@ -18,7 +18,6 @@ const SkillCard = ({ imageSrc, title }) => {
         { imageSrc: "/images/tagmanager.webp", title: "Google Tag Manager" },
         { imageSrc: "/images/googleads.webp", title: "Google Ads" },
         { imageSrc: "/images/googleanalytics.webp", title: "Google Analytics" },
-        
     ];
     
     return (
