@@ -4,12 +4,12 @@ import './BotonDescargar.css';
 const BotonDescargar = () => {
     const [t] = useTranslation("global");
 	const onButtonClick = () => {
-		fetch('CV-POR-Pablo Girone.pdf').then(response => {
+		fetch('CV-Pablo Girone.pdf').then(response => {
 			response.blob().then(blob => {
 				const fileURL = window.URL.createObjectURL(blob);
 				let alink = document.createElement('a');
 				alink.href = fileURL;
-				alink.download = 'CV-POR-Pablo Girone.pdf';
+				alink.download = 'CV-Pablo Girone.pdf';
 				alink.click();
 			})
 		})
