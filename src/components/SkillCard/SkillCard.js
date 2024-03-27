@@ -14,9 +14,11 @@ const SkillCard = ({ imageSrc, title }) => {
         { imageSrc: "/images/firebase.webp", title: "Firebase" },
         { imageSrc: "/images/github.webp", title: "GitHub" },
         { imageSrc: "/images/webflow.webp", title: "Webflow" },
+        { imageSrc: "/images/wordpress.webp", title: "Wordpress" },
         { imageSrc: "/images/tagmanager.webp", title: "Google Tag Manager" },
         { imageSrc: "/images/googleads.webp", title: "Google Ads" },
         { imageSrc: "/images/googleanalytics.webp", title: "Google Analytics" },
+        
     ];
     
     return (
