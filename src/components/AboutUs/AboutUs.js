@@ -8,7 +8,7 @@ const AboutUs = () => {
         <div className="fondo fondoAboutUs" id="AboutUs">
             <div className="container">
                 <Title titulo={t("aboutUs.title")} />
-                <div className="d-flex flex-column flex-md-row py-5">
+                <div className="d-flex flex-column flex-md-row pt-5">
                     <Image srcImg={'/images/imagen1.webp'} nameImg={ 'Imagen1' } />
                     <div className="col-12 col-md-7 d-flex flex-column justify-content-center pt-5 pt-md-0">
                         <h3 className="text-center pb-3">Pablo Nicolás Girone</h3>
