@@ -9,7 +9,7 @@ import { BrowserRouter} from 'react-router-dom';
 import React, { useState } from 'react';
 
 function App() {
-  const [modoOscuro, setModoOscuro] = useState(false);
+  const [modoOscuro, setModoOscuro] = useState(true);
 
   const toggleModo = () => {
       setModoOscuro(!modoOscuro);
