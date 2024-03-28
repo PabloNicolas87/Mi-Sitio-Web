@@ -26,7 +26,7 @@ const SocialIconList = () => {
       alt: "Facebook",
     },
     {
-      href: "https://github.com/Pablo728",
+      href: "https://github.com/PabloNicolas87",
       src: "/images/github.webp",
       alt: "GitHub",
     },
