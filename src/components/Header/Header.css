@@ -46,6 +46,14 @@
 .offcanvas {
     background-color: #f0f0f2 !important;
 }
+.cerrar-boton {
+    background-color: transparent;
+    border: none !important;
+}
+.material-symbols-outlined {
+    font-size: 40px !important;
+    color: #272729 !important;
+}
 
 /*MODO OSCURO*/
 .modo-oscuro .navbar {
@@ -68,6 +76,10 @@
 
 .modo-oscuro .offcanvas {
     background-color: #141414 !important;
+}
+
+.modo-oscuro .material-symbols-outlined {
+    color: white !important;
 }
 
 

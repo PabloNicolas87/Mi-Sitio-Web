@@ -11,7 +11,7 @@ const Header = ({ toggleModo, modoOscuro }) => {
         <nav className="navbar fixed-top">
             <div className="container-fluid">
                 <Logo />
-                <div>
+                <div className="d-flex flex-row align-items-center">
                     <div className="btn-group">
                         <button type="button" className="btn btn-secondary btn-idioma dropdown-toggle m-0" data-bs-toggle="dropdown" aria-expanded="false">
                             {t("header.select-language")}
@@ -29,13 +29,16 @@ const Header = ({ toggleModo, modoOscuro }) => {
                         </ul>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span class="material-symbols-outlined">menu</span>
                     </button>
                 </div>
 
                 <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div className="offcanvas-header d-flex justify-content-end">
-                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" className="cerrar-boton d-flex" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <span class="material-symbols-outlined">close</span>
+                        </button>
+                        
                     </div>
                     <div className="offcanvas-body d-flex flex-column justify-content-between">
                         <ul className="navbar-nav flex-grow-1 pe-3">
