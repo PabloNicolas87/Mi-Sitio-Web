@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #f0f0f2;
+    background-color: #E6E6E6;
     width: 100%;
     height: 100px;
 }
@@ -57,7 +57,7 @@
 
 /*MODO OSCURO*/
 .modo-oscuro .navbar {
-    background-color: #000000 !important;
+    background-color: #1d1d1f !important;
     color: white;
 }
 

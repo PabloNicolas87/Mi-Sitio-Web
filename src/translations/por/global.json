@@ -12,13 +12,12 @@
     },
     "aboutUs": {
         "title": "Sobre Mim",
-        "paragraph1": "Sou Pablo, Argentino nascido em 12 de agosto de 1988 na cidade de Buenos Aires. Moro na cidade de Balneário Camboriú, no estado de Santa Catarina, desde o início de 2022. Me mudei para cá em busca de qualidade de vida e novos horizontes numa cidade incrível por suas praias e estilo de vida.",
-        "paragraph2": "Sou Front-End Dev, apaixonado por crescimento e desenvolvimento pessoal e profissional no mundo de TI. Responsável, autodidata, proativo, decidido e inquieto são as qualidades que me caracterizam. Gosto de trabalhar em equipe para que o aprendizado seja mais rápido e compartilhado.",
-        "paragraph3": "Trabalhando como profissional independente no campo do desenvolvimento web desde 2019, tenho experiência com o uso de tecnologias de ponta como ReactJS, Angular, JavaScript, Bootstrap, jQuery, CSS3 e HTML5. Meu foco está na criação de soluções web eficientes e atrativas para meus clientes.",
-        "paragraph4": "Além disso, utilizo ferramentas de gestão de projetos e controle de versões, sendo o GitHub uma parte essencial do meu fluxo de trabalho para garantir uma colaboração eficaz e a entrega de projetos de alta qualidade dentro do prazo estabelecido.",
-        "paragraph5": "Minha experiência vai além do desenvolvimento em si, pois também possuo conhecimentos em sistemas de gerenciamento de conteúdo (CMS) como Webflow e Wordpress. Isso me permite oferecer aos meus clientes soluções completas e escaláveis que se adequam às suas necessidades específicas de conteúdo e administração.",
-        "paragraph6": "Também estou familiarizado com ferramentas de marketing digital, incluindo Meta Ads, Google Ads, Google Tag Manager e Google Analytics, o que me permite integrar estratégias eficazes de marketing em meus projetos web.",
-        "paragraph7": "Estou comprometido com a excelência em cada projeto que empreendo, combinando habilidades técnicas com uma abordagem centrada no cliente para oferecer soluções de desenvolvimento web de primeira qualidade que impulsionem o sucesso dos meus clientes online."
+        "paragraph1": "Eu sou Pablo, argentino, nascido em 12 de agosto de 1988 na cidade de Buenos Aires. Atualmente, resido no Brasil, em Balneário Camboriú, estado de Santa Catarina, para onde me mudei no início de 2022.",
+        "paragraph2": "Como Front-End Dev, sou apaixonado pelo crescimento pessoal e profissional no mundo da tecnologia. Me defino como responsável, autodidata, proativo, resolutivo e inquieto. Gosto de trabalhar em equipe para acelerar e compartilhar o processo de aprendizado.",
+        "paragraph3": "Trabalhando como profissional independente no campo do desenvolvimento web desde 2019, tenho experiência com tecnologias básicas como JavaScript, Bootstrap, jQuery, CSS3 e HTML5. Meu foco está na criação de soluções web eficientes e atraentes para meus clientes.",
+        "paragraph4": "Eu utilizo tecnologias avançadas como Angular e React JS, juntamente com Firebase para o armazenamento de bancos de dados. Também uso ferramentas de gerenciamento de projetos e controle de versão, sendo o GitHub uma parte integral do meu fluxo de trabalho.",
+        "paragraph5": "Além do desenvolvimento, tenho experiência em sistemas de gerenciamento de conteúdo (CMS) como Webflow e Wordpress, o que me permite oferecer soluções completas e adaptáveis às necessidades específicas de conteúdo e administração.",
+        "paragraph6": "Além disso, estou familiarizado com ferramentas de marketing digital, incluindo Meta Ads, Google Ads, Google Tag Manager e Google Analytics, o que me permite integrar estratégias eficazes de marketing em meus projetos web."
     },
     "mySkills": {
         "title": "Minhas Habilidades"

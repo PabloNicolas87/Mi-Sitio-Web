@@ -25,21 +25,6 @@ const NavItems = () => {
             <li>
                 <Link
                     activeClass="active"
-                    to="MySkills"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={1000}
-                    className="nav-link px-2 skills"
-                    aria-label="Close"
-                    data-bs-dismiss="offcanvas"
-                >
-                    {t("header.my-skills")}
-                </Link>
-            </li>
-            <li>
-                <Link
-                    activeClass="active"
                     to="MyProjects"
                     spy={true}
                     smooth={true}

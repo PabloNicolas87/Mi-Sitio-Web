@@ -16,6 +16,10 @@
 .fondogris {
     background-color: #f0f0f2;
 }
+.fondoAboutUs p {
+    font-size: 20px;
+    font-weight: 400;
+}
 
 /*MODO OSCURO*/
 .modo-oscuro .fondo {
