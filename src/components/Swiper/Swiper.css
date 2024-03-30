@@ -43,11 +43,16 @@
 .swiper-pagination-bullet-active {
     background-color: rgb(0, 119, 237) !important;
 }
-.filtro {
+.fondoimg {
     position: absolute;
     /*object-fit: cover;*/
     border-radius: 10px;
-    opacity: 0.3;
+    z-index: 9997;
+}
+.filtro {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
 }
 .swiper-slide {
     background-color: #f0f0f2;
@@ -56,6 +61,7 @@
 .swiper-slide h3 {
     color: #272729;
     text-shadow: 0px 0px 20px white;
+    font-size: 65px !important;
 }
 .contenidocard {
     position: absolute;

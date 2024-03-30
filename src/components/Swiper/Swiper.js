@@ -85,9 +85,10 @@ const SwiperJS = () => {
         >
             {projects.map((project, index) => (
                 <SwiperSlide key={index} className='custom-swiper-slide'>
-                        <img className='filtro w-100 h-100' src={project.imageSrc} alt={project.title} />
+                        <img className='fondoimg w-100 h-100' src={project.imageSrc} alt={project.title} />
+                        <div className='filtro w-100 h-100'></div>
                         <div className='contenidocard w-100 h-100 d-flex flex-column justify-content-around align-items-center'>
-                            <h3>{project.title}</h3>
+                            <h3 className='p-0'>{project.title}</h3>
                             <MyProjectsItem
                                 title={project.title}
                                 deploymentLink={project.deploymentLink}
