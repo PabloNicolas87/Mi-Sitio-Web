@@ -7,10 +7,10 @@ const MyProjects = () => {
     const [t] = useTranslation("global");
     return(
         <div className="fondo" id="MyProjects">
-            <div className="container">
+            <div className="container-xxl">
                 <Title titulo={t("myProjects.title")} />
-                <div className="py-5">
-                    <SwiperJS />  
+                <div className="py-5">                
+                    <SwiperJS />
                 </div>    
             </div>
         </div>  

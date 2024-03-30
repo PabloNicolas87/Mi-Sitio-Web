@@ -43,16 +43,24 @@
 .swiper-pagination-bullet-active {
     background-color: rgb(0, 119, 237) !important;
 }
+.filtro {
+    position: absolute;
+    /*object-fit: cover;*/
+    border-radius: 10px;
+    opacity: 0.3;
+}
 .swiper-slide {
     background-color: #f0f0f2;
-}
-.swiper-slide img {
-    width: 150px !important;
+    position: relative;
 }
 .swiper-slide h3 {
     color: #272729;
+    text-shadow: 0px 0px 20px white;
 }
-
+.contenidocard {
+    position: absolute;
+    z-index: 9999;
+}
 
 /*MODO OSCURO*/
 .modo-oscuro .swiper-slide {
@@ -61,4 +69,5 @@
 
 .modo-oscuro .swiper-slide h3 {
     color: white;
+    text-shadow: 0px 0px 20px #272729;
 }

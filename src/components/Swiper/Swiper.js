@@ -63,7 +63,7 @@ const SwiperJS = () => {
 
     return (
         <Swiper
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 3000 }}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         breakpoints={{
             // when window width is >= 640px
@@ -72,7 +72,7 @@ const SwiperJS = () => {
                 spaceBetween: 30,
               },
               992: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 30,
               },
         }}
@@ -84,14 +84,16 @@ const SwiperJS = () => {
         loop = {true}
         >
             {projects.map((project, index) => (
-                <SwiperSlide key={index} className='custom-swiper-slide d-flex flex-column justify-content-between p-5'>
-                    <h3>{project.title}</h3>
-                    <img src={project.imageSrc} alt={project.title} />
-                    <MyProjectsItem
-                        title={project.title}
-                        deploymentLink={project.deploymentLink}
-                        skills={project.skills}
-                    />
+                <SwiperSlide key={index} className='custom-swiper-slide'>
+                        <img className='filtro w-100 h-100' src={project.imageSrc} alt={project.title} />
+                        <div className='contenidocard w-100 h-100 d-flex flex-column justify-content-around align-items-center'>
+                            <h3>{project.title}</h3>
+                            <MyProjectsItem
+                                title={project.title}
+                                deploymentLink={project.deploymentLink}
+                                skills={project.skills}
+                            />
+                        </div>
                 </SwiperSlide>
             ))}
         </Swiper>
