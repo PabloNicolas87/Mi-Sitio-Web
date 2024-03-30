@@ -53,26 +53,18 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 9998;
+    border-radius: 10px;
 }
 .swiper-slide {
     background-color: #f0f0f2;
     position: relative;
 }
 .swiper-slide h3 {
-    color: #272729;
+    color: white;
     text-shadow: 0px 0px 20px #272729;
     font-size: 65px !important;
 }
 .contenidocard {
     position: absolute;
     z-index: 9999;
-}
-
-/*MODO OSCURO*/
-.modo-oscuro .swiper-slide {
-    background-color: #1d1d1f;
-}
-
-.modo-oscuro .swiper-slide h3 {
-    color: white;
 }
