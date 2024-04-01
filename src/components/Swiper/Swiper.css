@@ -57,8 +57,8 @@
 }
 .swiper-slide h3 {
     color: white;
-    text-shadow: 0px 0px 20px #272729;
-    font-size: 65px !important;
+    text-shadow: 0px 0px 50px black;
+    font-size: 55px !important;
 }
 .contenidocard {
     position: absolute;
