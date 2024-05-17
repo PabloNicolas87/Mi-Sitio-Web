@@ -16,6 +16,24 @@ const SwiperJS = () => {
 
     const projects = [
         {
+            title: t("myProjects.project3"),
+            imageSrc: "/images/Ecommerce.webp",
+            deploymentLink: "https://react-curso-alpha.vercel.app/",
+            skills: [
+                { imageSrc: "/images/react.webp", title: "React" },
+                { imageSrc: "/images/firebase.webp", title: "Firebase" },
+                { imageSrc: "/images/bootstrap.webp", title: "Bootstrap" }
+            ]
+        },
+        {
+            title: t("myProjects.project6"),
+            imageSrc: "/images/moviefinder.webp",
+            deploymentLink: "https://buscador-de-peliculas-three.vercel.app/",
+            skills: [
+                { imageSrc: "/images/react.webp", title: "React" }
+            ]
+        },
+        {
             title: t("myProjects.project1"),
             imageSrc: "/images/landingpage.webp",
             deploymentLink: "https://landing-page-xi-tan.vercel.app/",
@@ -34,16 +52,6 @@ const SwiperJS = () => {
             ]
         },
         {
-            title: t("myProjects.project3"),
-            imageSrc: "/images/Ecommerce.webp",
-            deploymentLink: "https://react-curso-alpha.vercel.app/",
-            skills: [
-                { imageSrc: "/images/react.webp", title: "React" },
-                { imageSrc: "/images/firebase.webp", title: "Firebase" },
-                { imageSrc: "/images/bootstrap.webp", title: "Bootstrap" }
-            ]
-        },
-        {
             title: t("myProjects.project4"),
             imageSrc: "/images/TodoListApp.webp",
             deploymentLink: "https://to-do-list-app-psi.vercel.app/",
@@ -57,14 +65,6 @@ const SwiperJS = () => {
             deploymentLink: "https://cacconsulting.com.br/",
             skills: [
                 { imageSrc: "/images/wordpress.webp", title: "Wordpress" }
-            ]
-        },
-        {
-            title: t("myProjects.project6"),
-            imageSrc: "/images/moviefinder.webp",
-            deploymentLink: "https://buscador-de-peliculas-three.vercel.app/",
-            skills: [
-                { imageSrc: "/images/react.webp", title: "React" }
             ]
         },
 
