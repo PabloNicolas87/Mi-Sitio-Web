@@ -58,7 +58,16 @@ const SwiperJS = () => {
             skills: [
                 { imageSrc: "/images/wordpress.webp", title: "Wordpress" }
             ]
-        }
+        },
+        {
+            title: t("myProjects.project6"),
+            imageSrc: "/images/moviefinder.webp",
+            deploymentLink: "https://buscador-de-peliculas-three.vercel.app/",
+            skills: [
+                { imageSrc: "/images/react.webp", title: "React" }
+            ]
+        },
+
     ];
 
     return (
