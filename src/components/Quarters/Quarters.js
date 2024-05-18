@@ -10,7 +10,7 @@ const Quarters = () => {
     const arrayDeObjetos = [
         { 
             id: 1, 
-            imagen: <Image srcImg={'/images/imagen1.webp'} nameImg={'Imagen1'} />,
+            imagen: <Image srcImg={'/images/Perfil.webp'} nameImg={'Perfil'} className="perfil-image" />,
             descripcion: t("aboutUs.paragraph1")
         },
         { 
