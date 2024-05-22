@@ -12,12 +12,12 @@
     },
     "aboutUs": {
         "title": "About Me",
-        "paragraph1": "I am Pablo, Argentine, born on August 12, 1988 in the city of Buenos Aires. Currently, I reside in Brazil, in Balneário Camboriú, state of Santa Catarina, where I moved to in early 2022.",
-        "paragraph2": "As a Front-End Dev, I am passionate about both personal and professional growth in the world of technology. I define myself as responsible, self-taught, proactive, resourceful, and restless. I enjoy working in teams to accelerate and share the learning process.",
-        "paragraph3": "Working as a freelance professional in the field of web development since 2019, I have experience with basic technologies such as JavaScript, Bootstrap, jQuery, CSS3, and HTML5. My focus is on creating efficient and attractive web solutions for my clients.",
-        "paragraph4": "I employ advanced technologies such as Angular and React JS, along with Firebase for database storage. I also use project management and version control tools, with GitHub being an integral part of my workflow.",
-        "paragraph5": "In addition to development, I have experience with content management systems (CMS) such as Webflow and Wordpress, allowing me to offer complete and adaptable solutions to specific content and administration needs.",
-        "paragraph6": "Furthermore, I am familiar with digital marketing tools, including Meta Ads, Google Ads, Google Tag Manager, and Google Analytics, enabling me to integrate effective marketing strategies into my web projects."
+        "paragraph1": "I am Pablo, Argentinean born on August 12, 1988 in the city of Buenos Aires. Based in Brazil, Balneario Camboriú, Santa Catarina state, where I relocated to at the beginning of 2022. I work as a Front-End developer.",
+        "paragraph2": "I am passionate about personal and professional growth in the world of technology. I define myself as responsible, self-taught, proactive, decisive and restless. I enjoy working in a team to accelerate and share the learning process.",
+        "paragraph3": "Since 2019, I have been working as a freelancer in web development, using core technologies such as JavaScript, Bootstrap, jQuery, CSS3 and HTML5. I specialize in creating efficient and engaging web solutions for my clients.",
+        "paragraph4": "I use advanced technologies such as Angular and React JS, as well as Firebase for database storage. I also handle project management and version control tools, with GitHub as a fundamental part of my workflow.",
+        "paragraph5": "In addition to my development experience, I am familiar with content management systems (CMS) such as Webflow and WordPress. This allows me to provide comprehensive and customized solutions that fit the specific content and administration needs of my clients.",
+        "paragraph6": "My skills cover the use of Meta Ads, Google Ads, Google Tag Manager and Google Analytics to implement digital marketing tactics in web projects"
     },
     "mySkills": {
         "title": "My Skills"

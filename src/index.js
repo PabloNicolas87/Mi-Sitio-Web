@@ -13,7 +13,7 @@ import global_por from "./translations/por/global.json";
 
 i18next.init({
   iterpolation: {escapeValue: false },
-  lng: "por",
+  lng: "en",
   resources: {
     es: {
       global: global_es

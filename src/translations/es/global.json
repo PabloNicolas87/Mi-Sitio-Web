@@ -12,12 +12,12 @@
     },
     "aboutUs": {
         "title": "Sobre Mi",
-        "paragraph1": "Soy Pablo, Argentino, nací el 12 de Agosto de 1988 en la ciudad de Buenos Aires. Actualmente resido en Brasil, en Balneario Camboriú, estado de Santa Catarina, donde me mudé a principios del 2022.",
-        "paragraph2": "Como Front-End Dev, me apasiona el crecimiento tanto personal como profesional en el mundo de la tecnología. Me defino como responsable, autodidacta, proactivo, resolutivo e inquieto. Disfruto trabajar en equipo para acelerar y compartir el proceso de aprendizaje.",
-        "paragraph3": "Trabajando como profesional independiente en el ámbito del desarrollo web desde 2019, tengo el uso de las tecnologías básicas como JavaScript, Bootstrap, jQuery, CSS3 y HTML5. Mi enfoque se centra en la creación de soluciones web eficientes y atractivas para mis clientes.",
-        "paragraph4": "Empleo tecnologías avanzadas como Angular y React JS, junto con Firebase para el almacenamiento de bases de datos. También utilizo herramientas de gestión de proyectos y control de versiones, siendo GitHub una parte integral de mi flujo de trabajo.",
-        "paragraph5": "Además del desarrollo, tengo experiencia en sistemas de gestión de contenidos (CMS) como Webflow y Wordpress, lo que me permite ofrecer soluciones completas y adaptables a las necesidades específicas de contenido y administración.",
-        "paragraph6": "También, estoy familiarizado con las herramientas de marketing digital, incluyendo Meta Ads, Google Ads, Google Tag Manager y Google Analytics, lo que me permite integrar estrategias efectivas de marketing en mis proyectos web."
+        "paragraph1": "Soy Pablo, Argentino, nací el 12 de agosto de 1988 en la ciudad de Buenos Aires. Actualmente resido en Brasil, en Balneario Camboriú, estado de Santa Catarina, donde me mudé a principios del 2022. Me desempeño como desarrollador Front-End.",
+        "paragraph2": "Me apasiona el crecimiento tanto personal como profesional en el mundo de la tecnología. Me defino como responsable, autodidacta, proactivo, resolutivo e inquieto. Disfruto trabajar en equipo para acelerar y compartir el proceso de aprendizaje.",
+        "paragraph3": "Desde 2019, me desempeño como profesional independiente en el desarrollo web, utilizando tecnologías fundamentales como JavaScript, Bootstrap, jQuery, CSS3 y HTML5. Me especializo en crear soluciones web eficientes y atractivas para mis clientes.",
+        "paragraph4": "Utilizo tecnologías avanzadas como Angular y React JS, además de Firebase para el almacenamiento de bases de datos. También manejo herramientas de gestión de proyectos y control de versiones, con GitHub como una parte fundamental de mi flujo de trabajo",
+        "paragraph5": "Además de mi experiencia en desarrollo, estoy familiarizado con sistemas de gestión de contenidos (CMS) como Webflow y WordPress. Esto me permite proporcionar soluciones integrales y personalizadas que se ajustan a las necesidades específicas de contenido y administración de mis clientes.",
+        "paragraph6": "Mis habilidades abarcan el uso de Meta Ads, Google Ads, Google Tag Manager y Google Analytics para implementar tácticas de marketing digital en proyectos web."
     },
     "mySkills": {
         "title": "Mis Habilidades"
