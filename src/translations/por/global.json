@@ -12,11 +12,11 @@
     },
     "aboutUs": {
         "title": "Sobre Mim",
-        "paragraph1": "Sou Pablo, argentino, nascido em 12 de agosto de 1988 na cidade de Buenos Aires. Atualmente moro no Brasil, em Balneário Camboriú, estado de Santa Catarina, para onde me mudei no início de 2022. Trabalho como desenvolvedor Front-End.",
+        "paragraph1": "Sou Pablo, Argentino, nascido em 12 de agosto de 1988 na cidade de Buenos Aires. Atualmente moro no Brasil, em Balneário Camboriú, estado de Santa Catarina, para onde me mudei no início de 2022. Trabalho como desenvolvedor Front-End.",
         "paragraph2": "Sou um apaixonado pelo crescimento pessoal e profissional no mundo da tecnologia. Defino-me como responsável, autodidata, proactivo, resoluto e inquieto. Gosto de trabalhar em equipa para acelerar e partilhar o processo de aprendizagem.",
-        "paragraph3": "Desde 2019, sou um desenvolvedor web freelancer, usando tecnologias essenciais como JavaScript, Bootstrap, jQuery, CSS3 e HTML5. Especializo-me em criar soluções web eficientes e envolventes para os meus clientes.",
-        "paragraph4": "Utilizo tecnologias avançadas como o Angular e o React JS, bem como o Firebase para o armazenamento de bases de dados. Também utilizo ferramentas de gestão de projectos e de controlo de versões, sendo o GitHub uma parte fundamental do meu fluxo de trabalho.",
-        "paragraph5": "Para além da minha experiência em desenvolvimento, estou familiarizado com sistemas de gestão de conteúdos (CMS) como o Webflow e o WordPress. Isto permite-me fornecer soluções abrangentes e personalizadas que se adaptam às necessidades específicas de conteúdo e administração dos meus clientes.",
+        "paragraph3": "Desde 2019, sou desenvolvedor web freelancer, usando tecnologias essenciais como JavaScript, Bootstrap, jQuery, CSS3 e HTML5. Especializo-me em criar soluções web eficientes e envolventes para os meus clientes.",
+        "paragraph4": "Utilizo tecnologias avançadas como Angular e React JS, bem como o Firebase para o armazenamento de bases de dados. Também utilizo ferramentas de gestão de projectos e de controlo de versões, sendo o GitHub uma parte fundamental do meu fluxo de trabalho.",
+        "paragraph5": "Além da minha experiência em desenvolvimento, estou familiarizado com sistemas de gestão de conteúdos (CMS) como Webflow e WordPress. Isso permite-me fornecer soluções abrangentes e personalizadas que se adaptam às necessidades específicas de conteúdo e administração dos meus clientes.",
         "paragraph6": "As minhas competências abrangem a utilização de Meta Ads, Google Ads, Google Tag Manager e Google Analytics para implementar tácticas de marketing digital em projectos Web."
     },
     "mySkills": {
