@@ -15,32 +15,28 @@ const Quarters = () => {
         },
         { 
             id: 2, 
-            imagen: <Image srcImg={'/images/imagen2.webp'} nameImg={'Imagen2'} />,
-            descripcion: t("aboutUs.paragraph2")
-        },
-        { 
-            id: 3, 
             habilidades: [
                 <SkillItem key="HTML" imageSrc={'/images/html.webp'} title={'HTML5'} />,
                 <SkillItem key="CSS" imageSrc={'/images/css.webp'} title={'CSS3'} />,
                 <SkillItem key="JS" imageSrc={'/images/javascript.webp'} title={'JavaScript'} />,
                 <SkillItem key="Bootstrap" imageSrc={'/images/bootstrap.webp'} title={'Bootstrap'} />,
-                <SkillItem key="JQuery" imageSrc={'/images/jquery.webp'} title={'JQuery'} />
+                <SkillItem key="Tailwind" imageSrc={'/images/tailwind.webp'} title={'Tailwind'} />
             ],
             descripcion: t("aboutUs.paragraph3")
         },
         { 
-            id: 4, 
+            id: 3, 
             habilidades: [
-                <SkillItem key="ReactJS" imageSrc={'/images/react.webp'} title={'ReactJS'} />,
                 <SkillItem key="Angular" imageSrc={'/images/angular.webp'} title={'Angular'} />,
+                <SkillItem key="ReactJS" imageSrc={'/images/react.webp'} title={'ReactJS'} />,
+                <SkillItem key="NextJS" imageSrc={'/images/nextjs.webp'} title={'NextJS'} />,
                 <SkillItem key="Firebase" imageSrc={'/images/firebase.webp'} title={'Firebase'} />,
-                <SkillItem key="GitHub" imageSrc={'/images/github.webp'} title={'GitHub'} />
+                <SkillItem key="Git" imageSrc={'/images/git.webp'} title={'Git'} />
             ],
             descripcion: t("aboutUs.paragraph4")
         },
         { 
-            id: 5, 
+            id: 4, 
             habilidades: [
                 <SkillItem key="Webflow" imageSrc={'/images/webflow.webp'} title={'Webflow'} />,
                 <SkillItem key="Wordpress" imageSrc={'/images/wordpress.webp'} title={'Wordpress'} />
@@ -48,14 +44,30 @@ const Quarters = () => {
             descripcion: t("aboutUs.paragraph5")
         },
         { 
-            id: 6, 
+            id: 5, 
             habilidades: [
-                <SkillItem key="Meta Ads" imageSrc={'/images/metaads.webp'} title={'Meta Ads'} />,
-                <SkillItem key="Google Ads" imageSrc={'/images/googleads.webp'} title={'Google Ads'} />,
-                <SkillItem key="Google Tag Manager" imageSrc={'/images/tagmanager.webp'} title={'Google Tag Manager'} />,
-                <SkillItem key="Google Analytics" imageSrc={'/images/googleanalytics.webp'} title={'Google Analytics'} />,
+                <SkillItem key="Java" imageSrc={'/images/java.webp'} title={'Java'} />,
+                <SkillItem key="Spring Boot" imageSrc={'/images/spring.webp'} title={'Spring Boot'} />,
             ],
             descripcion: t("aboutUs.paragraph6")
+        },
+        { 
+            id: 6, 
+            habilidades: [
+                <SkillItem key="AWS" imageSrc={'/images/aws.webp'} title={'AWS'} />,
+                <SkillItem key="OCI" imageSrc={'/images/oci.webp'} title={'OCI'} />,
+            ],
+            descripcion: t("aboutUs.paragraph7")
+        },
+        { 
+            id: 6, 
+            habilidades: [
+                <SkillItem key="JUnit" imageSrc={'/images/junit.webp'} title={'JUnit'} />,
+                <SkillItem key="Selenium" imageSrc={'/images/selenium.webp'} title={'Selenium'} />,
+                <SkillItem key="Playwright" imageSrc={'/images/playwright.webp'} title={'Playwright'} />,
+                <SkillItem key="Cypress" imageSrc={'/images/cypress.webp'} title={'Cypress'} />,
+            ],
+            descripcion: t("aboutUs.paragraph8")
         }
     ];
 

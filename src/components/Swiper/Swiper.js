@@ -42,14 +42,6 @@ const SwiperJS = () => {
             ]
         },
         {
-            title: t("myProjects.project1"),
-            imageSrc: "/images/landingpage.webp",
-            deploymentLink: "https://landing-page-xi-tan.vercel.app/",
-            skills: [
-                { imageSrc: "/images/webflow.webp", title: "Webflow" }
-            ]
-        },
-        {
             title: t("myProjects.project2"),
             imageSrc: "/images/calculadora.webp",
             deploymentLink: "https://js-curso-xi.vercel.app/",
@@ -67,15 +59,6 @@ const SwiperJS = () => {
                 { imageSrc: "/images/react.webp", title: "React" }
             ]
         },
-        {
-            title: t("myProjects.project5"),
-            imageSrc: "/images/cacconsulting.webp",
-            deploymentLink: "https://cacconsulting.com.br/",
-            skills: [
-                { imageSrc: "/images/wordpress.webp", title: "Wordpress" }
-            ]
-        },
-
     ];
 
     return (

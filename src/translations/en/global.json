@@ -12,23 +12,22 @@
     },
     "aboutUs": {
         "title": "About Me",
-        "paragraph1": "I'm Pablo, Argentinean born on August 12, 1988 in the city of Buenos Aires. Based in Brazil, Balneario Camboriú, Santa Catarina state, where I relocated to at the beginning of 2022. I work as a Front-End developer.",
-        "paragraph2": "I am passionate about personal and professional growth in the world of technology. I define myself as responsible, self-taught, proactive, decisive and restless. I enjoy working in a team to accelerate and share the learning process.",
-        "paragraph3": "Since 2019, I have been working as a freelancer in web development, using core technologies such as JavaScript, Bootstrap, jQuery, CSS3 and HTML5. I specialize in creating efficient and engaging web solutions for my clients.",
-        "paragraph4": "I use advanced technologies such as Angular and React JS, as well as Firebase for database storage. I also handle project management and version control tools, with GitHub as a fundamental part of my workflow.",
+        "paragraph1": "I'm Pablo, Argentinean born on August 12, 1988 in Buenos Aires. I live in Balneario Camboriú, Brazil, since early 2022 and I work as a Front-End developer. I am passionate about growing in the world of technology, I am responsible, self-taught, proactive and enjoy working in a team to learn and solve challenges.",
+        "paragraph3": "I use languages such as HTML, CSS and JavaScript, and for styling I use Tailwind CSS and Bootstrap. With these tools, I create modern and responsive interfaces, focusing on offering efficient and attractive solutions to improve the user experience.",
+        "paragraph4": "I use advanced technologies such as Next.js frameworks for server-side rendering (SSR) and Angular, as well as the React.js library. I also use Firebase for database storage. I use project management and version control tools, with Git being a fundamental part of my workflow.",
         "paragraph5": "In addition to my development experience, I am familiar with content management systems (CMS) such as Webflow and WordPress. This allows me to provide comprehensive and customized solutions that fit the specific content and administration needs of my clients.",
-        "paragraph6": "My skills cover the use of Meta Ads, Google Ads, Google Tag Manager and Google Analytics to implement digital marketing tactics in web projects"
+        "paragraph6": "Currently, I am expanding my knowledge towards backend development, where I am specializing in Java and Spring Boot. This allows me to complement my front-end skills with the ability to develop complete, robust and scalable applications, improving my competencies as an integral developer.",
+        "paragraph7": "In addition, I am exploring the world of cloud computing, gaining experience in platforms such as Oracle Cloud Infrastructure (OCI) and AWS. These tools allow me to optimize infrastructure and resource management, integrating cloud solutions that improve the performance and scalability of projects.",
+        "paragraph8": "In parallel, I am dabbling in testing automation, using tools like JUnit and Selenium for automated testing in Java, and Playwright and Cypress for front-end testing with JavaScript. This helps me to ensure the quality and stability of applications in continuous development environments."
     },
     "mySkills": {
         "title": "My Skills"
     },
     "myProjects": {
         "title": "My Projects",
-        "project1": "Landing-Page",
         "project2": "Calculator",
         "project3": "E-commerce",
         "project4": "To Do List",
-        "project5": "CAC Consulting",
         "project6": "Movie Finder",
         "project7": "Student Management",
         "view": "View More",
